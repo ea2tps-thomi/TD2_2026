@@ -1,0 +1,63 @@
+# Directorios
+SRC_DIR = src
+BUILD_DIR = build
+
+# Toolchain
+CC  = arm-none-eabi-gcc
+AS  = arm-none-eabi-as
+LD  = arm-none-eabi-gcc
+BIN = arm-none-eabi-objcopy
+
+# Flags
+CFLAGS = -mthumb -mcpu=cortex-m3 -O0 -g
+LDFLAGS = -T $(SRC_DIR)/linker.ld -nostdlib
+
+# Archivos
+CRT  = $(SRC_DIR)/crt.c
+MAIN = $(SRC_DIR)/main.c
+
+# Output
+TARGET = $(BUILD_DIR)/app
+
+# Regla principal
+all: $(TARGET).bin
+
+# Crear carpeta build
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
+
+# Compilar ASM
+$(BUILD_DIR)/crt.o: $(CRT) | $(BUILD_DIR)
+	$(AS) -o $@ $<
+
+# Compilar C
+$(BUILD_DIR)/main.o: $(MAIN) | $(BUILD_DIR)
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# Linkear
+$(TARGET).elf: $(BUILD_DIR)/crt.o $(BUILD_DIR)/main.o
+	$(LD) $(CFLAGS) $(LDFLAGS) -o $@ $^
+
+# Generar BIN
+$(TARGET).bin: $(TARGET).elf
+	$(BIN) -O binary $< $@
+
+# Flashear (borra y escribe)
+flash: $(TARGET).bin
+	openocd -f interface/stlink.cfg -f target/stm32f1x.cfg \
+	-c "init" -c "reset halt" \
+	-c "flash erase_sector 0 0 last" \
+	-c "flash write_image $(TARGET).bin 0x08000000" \
+	-c "reset run" -c "exit"
+
+# Borrar flash
+erase:
+	openocd -f interface/stlink.cfg -f target/stm32f1x.cfg \
+	-c "init" -c "reset halt" \
+	-c "flash erase_sector 0 0 last" \
+	-c "reset run" -c "exit"
+
+# Limpiar
+clean:
+	rm -rf $(BUILD_DIR)
+
