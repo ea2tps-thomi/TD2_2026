@@ -27,7 +27,7 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 openocd-flash: app.bin
-	openocd -f interface/stlink.cfg -c  "set CPUTAPID 0x2ba01477"  -f target/stm32f1x.cfg  -c "init" -c "reset halt" -c "flash write_image erase $(BUILD_DIR)/app.bin 0x08000000" -c "reset run" -c "exit"
+	openocd -f interface/stlink.cfg -f target/stm32f1x.cfg  -c "init" -c "reset halt" -c "flash write_image erase $(BUILD_DIR)/app.bin 0x08000000" -c "reset run" -c "exit"
 	
 openocd-erase:
 	openocd -f interface/stlink.cfg -f target/stm32f1x.cfg  -c "init" -c "reset halt" -c "flash erase_sector 0 0 last" -c "reset run" -c "exit"

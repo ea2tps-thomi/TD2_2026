@@ -2,10 +2,9 @@
 .cpu cortex-m3
 .thumb
 
-.global _estack
-.global _reset
+.global _esstack
 
-.word _estack
+.word _esstack
 .word _reset
 
 .thumb_func
