@@ -4,7 +4,7 @@ CC = arm-none-eabi-gcc
 AS = arm-none-eabi-as
 LD = arm-none-eabi-ld
 BIN = arm-none-eabi-objcopy
-CFLAGS = -mthumb -mcpu=cortex-m3 -o0 -g
+CFLAGS = -mthumb -mcpu=cortex-m3 -O0 -g
 
 all: app.bin
 
