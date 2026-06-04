@@ -11,6 +11,7 @@
 // bit fields
 #define RCC_IOPCEN (1 << 4)
 #define GPIOC13 (1UL << 13)
+#define GPIOC14 (1UL << 14) // nuevo led a usar con SysTick
 
 // --- Registros del SysTick (Cortex-M Core) ---
 #define SysTick_BASE 0xE000E010
@@ -41,27 +42,31 @@ void systick_init_ms(void)
     SysTick_VAL = 0; // reset del contador
     SysTick_CTRL |= SysTick_CTRL_TICKINT | SysTick_CTRL_ENABLE; // Habilitar la interrupción de SysTick (TICKINT) Y el contador (ENABLE)
 }
-// función delay 
-void delay_ms_bloqueante(uint32_t ms)
-{
-    uint32_t tiempo_inicio = tick + ms;
-    // Espera activa hasta que el contador global haya avanzado 'ms' milisegundos
-    while (tick != tiempo_inicio) ;
-}
 
 void main(void)
 {
     RCC_APB2ENR |= RCC_IOPCEN;
-    GPIOC_CRH &= 0xFF0FFFFF;
-    GPIOC_CRH |= 0x00200000;
+    GPIOC_CRH &= 0xF00FFFFF;
+    GPIOC_CRH |= 0x02200000;
+    GPIOC_ODR |= (GPIOC13 | GPIOC14); //inicio ambos leds a cero.
     systick_init_ms();
-    while (1)
-    {
-        // Encender el LED (poner PC13 en BAJO)
-        GPIOC_ODR &= ~GPIOC13;
-        delay_ms_bloqueante(500); // Espera 500 ms
-        // Apagar el LED (poner PC13 en ALTO)
-        GPIOC_ODR |= GPIOC13;
-        delay_ms_bloqueante(500); // Espera 500 ms
+ // creación de la variable para almacenar el tiempo de delay del led pc14
+	uint32_t delay_pc13 = 250; //250 ms
+	uint32_t delay_pc14 = 500; //500 ms
+	uint32_t ultimo_tiempo_pc13 = 0;
+        uint32_t ultimo_tiempo_pc14 = 0;
+
+
+    while (1){
+
+	if((tick - ultimo_tiempo_pc13) >= delay_pc13){
+          ultimo_tiempo_pc13 = tick;
+		GPIOC_ODR ^= GPIOC13; //XOR para no afectar al resto del puerto  
+	}
+	   if((tick - ultimo_tiempo_pc14) >= delay_pc14){
+          ultimo_tiempo_pc14 = tick;
+                GPIOC_ODR ^= GPIOC14; //XOR para no afectar al resto del puerto  
+        }
+
     }
 }

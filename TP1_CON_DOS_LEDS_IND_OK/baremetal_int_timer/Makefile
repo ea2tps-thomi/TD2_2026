@@ -4,7 +4,7 @@ CC = arm-none-eabi-gcc
 AS = arm-none-eabi-as
 LD = arm-none-eabi-ld
 BIN = arm-none-eabi-objcopy
-CFLAGS = -mthumb -mcpu=cortex-m3 -o0 -g
+CFLAGS = -mthumb -mcpu=cortex-m3 -O0 -g
 
 all: app.bin
 
@@ -27,7 +27,7 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 openocd-flash: app.bin
-	openocd -f interface/stlink.cfg -f target/stm32f1x.cfg  -c "init" -c "reset halt" -c "flash write_image erase $(BUILD_DIR)/app.bin 0x08000000" -c "reset run" -c "exit"
+	openocd -f interface/stlink.cfg -c  "set CPUTAPID 0x2ba01477"  -f target/stm32f1x.cfg  -c "init" -c "reset halt" -c "flash write_image erase $(BUILD_DIR)/app.bin 0x08000000" -c "reset run" -c "exit"
 	
 openocd-erase:
 	openocd -f interface/stlink.cfg -f target/stm32f1x.cfg  -c "init" -c "reset halt" -c "flash erase_sector 0 0 last" -c "reset run" -c "exit"
