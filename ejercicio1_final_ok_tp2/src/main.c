@@ -1,5 +1,6 @@
-// Ejercicio 1 y 2 
+// Ejercicio 1 
 #include <stdint.h>
+#include <stdbool.h> //archivo de cabecera para poder trabajar con variables booleanas
 
 //REGISTROS BASE
 #define RCC_BASE    0x40021000
@@ -23,6 +24,7 @@
 //GPIO
 #define GPIOA_CRL  *(volatile uint32_t *)(GPIOA_BASE + 0x00)
 #define GPIOA_ODR  *(volatile uint32_t *)(GPIOA_BASE + 0x0C)
+#define GPIOA_IDR   *(volatile uint32_t *)(GPIOA_BASE + 0x08) //registro para leer el estado de PA0
 #define GPIOB_CRL  *(volatile uint32_t *)(GPIOB_BASE + 0x00)
 #define GPIOB_CRH  *(volatile uint32_t *)(GPIOB_BASE + 0x04)
 #define GPIOB_ODR  *(volatile uint32_t *)(GPIOB_BASE + 0x0C)
@@ -43,6 +45,7 @@
 //NVIC
 // ISER0 habilita IRQs 0-31. EXTI0 = IRQ #6
 #define NVIC_ISER0  *(volatile uint32_t *)(NVIC_BASE + 0x000)  // 0x000 es el offset del ISER0, entonces 0x00 + NVIC_BASE = 0xE000E100 
+#define NVIC_ICER0  *(volatile uint32_t *)(NVIC_BASE + 0x080) // registro de limpieza de la interrupción 
 // IPR1: prioridad de IRQ #6 (byte 2 del registro IPR1)
 #define NVIC_IPR1   *(volatile uint32_t *)(NVIC_BASE + 0x304) //  // 0x304 es el offset del IPR1 (van avanzando los bits LSB en múltiplos de 4, es decir  0, 4, C), entonces 0x304 + NVIC_BASE = 0xE000E404
 
@@ -77,6 +80,8 @@
 
 // Variables y Función del SysTick
 volatile uint32_t tick;
+volatile uint32_t captura_tick=0; //variable para capturar el contador del systick 
+volatile bool estado_pulsador = false;
 
 // función que atiende la interrupción
 void SysTick_Handler(void)
@@ -100,22 +105,26 @@ void systick_init_ms(void)
 // El nombre debe coincidir con la entrada en la tabla de vectores (crt.s)
 void EXTI0_IRQHandler(void)
 {
-  //NVIC_ISER0 &= ~(1UL << 6);      // deshabilitar IRQ #6 en ISER0 para evitar rebotes temporalmente
-    // Toggle del LED en PB0
-    GPIOB_ODR ^= GPIOB0;
+//deshabilitar la interrupción temporalmente
+    NVIC_ICER0 = (1UL << 6); 
+//cambiamos el estado del pulsador
+    estado_pulsador = true;
 
-    // Limpiar el flag de pending (escribir 1 al bit correspondiente)
+    // Limpiar el flag de pending, EXTI se limpia escribiendo un 1
     EXTI_PR |= (1UL << 0);
+    
+    // Captura de tiempo de systick 
+    captura_tick = tick;
 }
 
-// ─── Main ─────────────────────────────────────────────────────────────────────
+
 void main(void)
 {
     // 1. Habilitar clocks: AFIO, GPIOA, GPIOB, GPIOC, ADC1EN,
      
     RCC_APB2ENR |= RCC_AFIOEN | RCC_IOPAEN | RCC_IOPBEN | RCC_IOPCEN | RCC_ADC1EN;
     
-    //ENCENDIDO DEL CANAL ADC1
+    //ENCENDIDO DEL CANAL ADC1 
     ADC_CR2 &= ~ ADC_ADON ;
     ADC_CR2 |=  ADC_ADON ;
     
@@ -166,8 +175,24 @@ void main(void)
 
 
 while (1){
-
+         //ponemos a uno los pines de los leds para mostrar la conversión del ADC en el ejercicio 2
         GPIOB_ODR |= LED_PB1 | LED_PB5 | LED_PB6 | LED_PB7 | LED_PB8;
+        
+      if(estado_pulsador){
+        // Evaluamos continuamente hasta que pasen los 20 ms
+        if((tick - captura_tick) >= 20){
+            
+            // FILTRO DE CONFIRMACIÓN: Leemos el pin PA0 (IDR) 
+            // Si después de 20ms sigue en 0 (LOW), es una pulsación real y no un transitorio, (cuando se pulsa se manda un cero, por eso preguntamos por ese estado)
+            if((GPIOA_IDR & (1UL << 0)) == 0){
+                GPIOB_ODR ^= GPIOB0; // Conmuta el LED de PB0
+            }
+            
+            // Una vez procesado el evento, limpiamos bandera y reactivamos NVIC
+            estado_pulsador = false;
+            NVIC_ISER0 = (1UL << 6); // Habilita nuevamente la interrupción en ISER
+        }
+    }
         if ((tick - ultimo_pc13) >= delay_pc13){
                 ultimo_pc13 = tick;
                 GPIOC_ODR ^= GPIOC13;
