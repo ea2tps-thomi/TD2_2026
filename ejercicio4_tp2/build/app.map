@@ -1,0 +1,401 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+                              build/src/main.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+                              build/src/main.o (strcmp)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+                              build/CMSIS/startup_stm32f103xb.o (__libc_init_array)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/src/main.o
+ .data          0x00000000        0x0 build/src/main.o
+ .bss           0x00000000        0x0 build/src/main.o
+ .bss.g_modo_adc
+                0x00000000        0x1 build/src/main.o
+ .text          0x00000000        0x0 build/CMSIS/syscalls.o
+ .data          0x00000000        0x0 build/CMSIS/syscalls.o
+ .bss           0x00000000        0x0 build/CMSIS/syscalls.o
+ .text._exit    0x00000000        0xc build/CMSIS/syscalls.o
+ .text._close   0x00000000       0x16 build/CMSIS/syscalls.o
+ .text._fstat   0x00000000       0x1e build/CMSIS/syscalls.o
+ .text._isatty  0x00000000       0x14 build/CMSIS/syscalls.o
+ .text._lseek   0x00000000       0x18 build/CMSIS/syscalls.o
+ .text._read    0x00000000       0x18 build/CMSIS/syscalls.o
+ .text._write   0x00000000       0x18 build/CMSIS/syscalls.o
+ .text          0x00000000        0x0 build/CMSIS/system_stm32f1xx.o
+ .data          0x00000000        0x0 build/CMSIS/system_stm32f1xx.o
+ .bss           0x00000000        0x0 build/CMSIS/system_stm32f1xx.o
+ .rodata.AHBPrescTable
+                0x00000000       0x10 build/CMSIS/system_stm32f1xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 build/CMSIS/system_stm32f1xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xe4 build/CMSIS/system_stm32f1xx.o
+ .text          0x00000000       0x14 build/CMSIS/startup_stm32f103xb.o
+ .data          0x00000000        0x0 build/CMSIS/startup_stm32f103xb.o
+ .bss           0x00000000        0x0 build/CMSIS/startup_stm32f103xb.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/src/main.o
+LOAD build/CMSIS/syscalls.o
+LOAD build/CMSIS/system_stm32f1xx.o
+LOAD build/CMSIS/startup_stm32f103xb.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+END GROUP
+                0x20004fff                        _estack = 0x20004fff
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c build/CMSIS/startup_stm32f103xb.o
+                0x08000000                g_pfnVectors
+                0x0800010c                        . = ALIGN (0x4)
+
+.text           0x0800010c      0x8b8
+                0x0800010c                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x0800010c       0xa0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+                0x0800010c                memset
+ .text          0x080001ac      0x1bc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+                0x080001ac                strcmp
+ .text          0x08000368       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+                0x08000368                __libc_init_array
+ *(.text*)
+ .text.__NVIC_EnableIRQ
+                0x080003b8       0x38 build/src/main.o
+ .text.__NVIC_DisableIRQ
+                0x080003f0       0x48 build/src/main.o
+ .text.__NVIC_SetPriority
+                0x08000438       0x54 build/src/main.o
+ .text.SysTick_Config
+                0x0800048c       0x44 build/src/main.o
+ .text.SysTick_Handler
+                0x080004d0       0x1c build/src/main.o
+                0x080004d0                SysTick_Handler
+ .text.systick_init
+                0x080004ec       0x1c build/src/main.o
+ .text.EXTI0_IRQHandler
+                0x08000508       0x38 build/src/main.o
+                0x08000508                EXTI0_IRQHandler
+ .text.USART1_IRQHandler
+                0x08000540       0x90 build/src/main.o
+                0x08000540                USART1_IRQHandler
+ .text.gpio_init
+                0x080005d0       0xa0 build/src/main.o
+ .text.rxtx_init
+                0x08000670       0x78 build/src/main.o
+ .text.exti_init
+                0x080006e8       0x40 build/src/main.o
+ .text.main     0x08000728      0x170 build/src/main.o
+                0x08000728                main
+ .text._init    0x08000898        0xc build/CMSIS/syscalls.o
+                0x08000898                _init
+ .text.SystemInit
+                0x080008a4       0xd4 build/CMSIS/system_stm32f1xx.o
+                0x080008a4                SystemInit
+ .text.Reset_Handler
+                0x08000978       0x48 build/CMSIS/startup_stm32f103xb.o
+                0x08000978                Reset_Handler
+ .text.Default_Handler
+                0x080009c0        0x2 build/CMSIS/startup_stm32f103xb.o
+                0x080009c0                RTC_Alarm_IRQHandler
+                0x080009c0                EXTI2_IRQHandler
+                0x080009c0                DebugMon_Handler
+                0x080009c0                TIM1_CC_IRQHandler
+                0x080009c0                HardFault_Handler
+                0x080009c0                PVD_IRQHandler
+                0x080009c0                PendSV_Handler
+                0x080009c0                NMI_Handler
+                0x080009c0                EXTI3_IRQHandler
+                0x080009c0                I2C2_EV_IRQHandler
+                0x080009c0                UsageFault_Handler
+                0x080009c0                ADC1_2_IRQHandler
+                0x080009c0                SPI1_IRQHandler
+                0x080009c0                TAMPER_IRQHandler
+                0x080009c0                DMA1_Channel4_IRQHandler
+                0x080009c0                USART3_IRQHandler
+                0x080009c0                RTC_IRQHandler
+                0x080009c0                DMA1_Channel7_IRQHandler
+                0x080009c0                CAN1_RX1_IRQHandler
+                0x080009c0                TIM4_IRQHandler
+                0x080009c0                I2C1_EV_IRQHandler
+                0x080009c0                DMA1_Channel6_IRQHandler
+                0x080009c0                TIM3_IRQHandler
+                0x080009c0                RCC_IRQHandler
+                0x080009c0                TIM1_TRG_COM_IRQHandler
+                0x080009c0                DMA1_Channel1_IRQHandler
+                0x080009c0                Default_Handler
+                0x080009c0                EXTI15_10_IRQHandler
+                0x080009c0                EXTI9_5_IRQHandler
+                0x080009c0                SPI2_IRQHandler
+                0x080009c0                MemManage_Handler
+                0x080009c0                SVC_Handler
+                0x080009c0                DMA1_Channel5_IRQHandler
+                0x080009c0                EXTI4_IRQHandler
+                0x080009c0                USB_LP_CAN1_RX0_IRQHandler
+                0x080009c0                USB_HP_CAN1_TX_IRQHandler
+                0x080009c0                DMA1_Channel3_IRQHandler
+                0x080009c0                TIM1_UP_IRQHandler
+                0x080009c0                WWDG_IRQHandler
+                0x080009c0                TIM2_IRQHandler
+                0x080009c0                TIM1_BRK_IRQHandler
+                0x080009c0                EXTI1_IRQHandler
+                0x080009c0                USART2_IRQHandler
+                0x080009c0                I2C2_ER_IRQHandler
+                0x080009c0                DMA1_Channel2_IRQHandler
+                0x080009c0                CAN1_SCE_IRQHandler
+                0x080009c0                FLASH_IRQHandler
+                0x080009c0                BusFault_Handler
+                0x080009c0                I2C1_ER_IRQHandler
+                0x080009c0                USBWakeUp_IRQHandler
+ *(.glue_7)
+ .glue_7        0x080009c2        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080009c2        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x080009c4                        . = ALIGN (0x4)
+ *fill*         0x080009c2        0x2 
+                0x080009c4                        _etext = .
+
+.vfp11_veneer   0x080009c4        0x0
+ .vfp11_veneer  0x080009c4        0x0 linker stubs
+
+.v4_bx          0x080009c4        0x0
+ .v4_bx         0x080009c4        0x0 linker stubs
+
+.iplt           0x080009c4        0x0
+ .iplt          0x080009c4        0x0 build/src/main.o
+
+.rodata         0x080009c4       0x20
+                0x080009c4                        . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x080009c4       0x20 build/src/main.o
+ *(.rodata*)
+                0x080009e4                        . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x080009e4        0x8
+                0x080009e4                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x080009e4        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+                0x080009ec                        __exidx_end = .
+
+.rel.dyn        0x080009ec        0x0
+ .rel.iplt      0x080009ec        0x0 build/src/main.o
+
+.preinit_array  0x080009ec        0x0
+                0x080009ec                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x080009ec                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x080009ec        0x0
+                0x080009ec                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x080009ec                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x080009ec        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x080009ec                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0x4 load address 0x080009ec
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 build/CMSIS/system_stm32f1xx.o
+                0x20000000                SystemCoreClock
+                0x20000004                        . = ALIGN (0x4)
+                0x20000004                        _edata = .
+
+.igot.plt       0x20000004        0x0 load address 0x080009f0
+ .igot.plt      0x20000004        0x0 build/src/main.o
+                0x20000004                        . = ALIGN (0x4)
+
+.bss            0x20000004       0x30 load address 0x080009f0
+                0x20000004                        _sbss = .
+                0x20000004                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.g_tick    0x20000004        0x4 build/src/main.o
+ .bss.g_captura_tick
+                0x20000008        0x4 build/src/main.o
+ .bss.g_pulsador
+                0x2000000c        0x1 build/src/main.o
+ *fill*         0x2000000d        0x3 
+ .bss.g_rx_buffer
+                0x20000010       0x20 build/src/main.o
+ .bss.g_rx_index
+                0x20000030        0x1 build/src/main.o
+ .bss.g_comando_recibido
+                0x20000031        0x1 build/src/main.o
+ *(COMMON)
+                0x20000034                        . = ALIGN (0x4)
+ *fill*         0x20000032        0x2 
+                0x20000034                        _ebss = .
+                0x20000034                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000034      0x604 load address 0x080009f0
+                0x20000038                        . = ALIGN (0x8)
+ *fill*         0x20000034        0x4 
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000238                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000038      0x200 
+                0x20000638                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000238      0x400 
+                0x20000638                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2b
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x2d build/src/main.o
+ .ARM.attributes
+                0x0000002d       0x2d build/CMSIS/syscalls.o
+ .ARM.attributes
+                0x0000005a       0x2d build/CMSIS/system_stm32f1xx.o
+ .ARM.attributes
+                0x00000087       0x21 build/CMSIS/startup_stm32f103xb.o
+ .ARM.attributes
+                0x000000a8       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000000d5       0x1b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .ARM.attributes
+                0x000000f0       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+OUTPUT(build/app.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+
+.debug_info     0x00000000     0x1370
+ .debug_info    0x00000000      0xa53 build/src/main.o
+ .debug_info    0x00000a53      0x405 build/CMSIS/syscalls.o
+ .debug_info    0x00000e58      0x275 build/CMSIS/system_stm32f1xx.o
+ .debug_info    0x000010cd       0x30 build/CMSIS/startup_stm32f103xb.o
+ .debug_info    0x000010fd      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_info    0x00001232       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .debug_info    0x00001265      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_abbrev   0x00000000      0x65b
+ .debug_abbrev  0x00000000      0x25b build/src/main.o
+ .debug_abbrev  0x0000025b       0xf0 build/CMSIS/syscalls.o
+ .debug_abbrev  0x0000034b      0x144 build/CMSIS/system_stm32f1xx.o
+ .debug_abbrev  0x0000048f       0x24 build/CMSIS/startup_stm32f103xb.o
+ .debug_abbrev  0x000004b3       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_abbrev  0x0000056a       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .debug_abbrev  0x00000592       0xc9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_aranges  0x00000000      0x180
+ .debug_aranges
+                0x00000000       0x78 build/src/main.o
+ .debug_aranges
+                0x00000078       0x58 build/CMSIS/syscalls.o
+ .debug_aranges
+                0x000000d0       0x28 build/CMSIS/system_stm32f1xx.o
+ .debug_aranges
+                0x000000f8       0x28 build/CMSIS/startup_stm32f103xb.o
+ .debug_aranges
+                0x00000120       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_aranges
+                0x00000140       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .debug_aranges
+                0x00000160       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_rnglists
+                0x00000000       0xc9
+ .debug_rnglists
+                0x00000000       0x58 build/src/main.o
+ .debug_rnglists
+                0x00000058       0x3d build/CMSIS/syscalls.o
+ .debug_rnglists
+                0x00000095       0x1b build/CMSIS/system_stm32f1xx.o
+ .debug_rnglists
+                0x000000b0       0x19 build/CMSIS/startup_stm32f103xb.o
+
+.debug_line     0x00000000      0xb4c
+ .debug_line    0x00000000      0x3e2 build/src/main.o
+ .debug_line    0x000003e2      0x16a build/CMSIS/syscalls.o
+ .debug_line    0x0000054c      0x1dc build/CMSIS/system_stm32f1xx.o
+ .debug_line    0x00000728       0x78 build/CMSIS/startup_stm32f103xb.o
+ .debug_line    0x000007a0      0x1b1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_line    0x00000951       0xdd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .debug_line    0x00000a2e      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_str      0x00000000      0xab6
+ .debug_str     0x00000000      0xab6 build/src/main.o
+                                0x720 (size before relaxing)
+ .debug_str     0x00000ab6      0x2d9 build/CMSIS/syscalls.o
+ .debug_str     0x00000ab6      0x220 build/CMSIS/system_stm32f1xx.o
+ .debug_str     0x00000ab6       0x60 build/CMSIS/startup_stm32f103xb.o
+ .debug_str     0x00000ab6      0x1a0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_str     0x00000ab6       0xa3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .debug_str     0x00000ab6      0x1ed /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 build/src/main.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 build/CMSIS/syscalls.o
+ .comment       0x00000026       0x27 build/CMSIS/system_stm32f1xx.o
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_frame    0x00000000      0x3cc
+ .debug_frame   0x00000000      0x1a4 build/src/main.o
+ .debug_frame   0x000001a4      0x13c build/CMSIS/syscalls.o
+ .debug_frame   0x000002e0       0x58 build/CMSIS/system_stm32f1xx.o
+ .debug_frame   0x00000338       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_frame   0x00000364       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+ .debug_frame   0x000003a0       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_line_str
+                0x00000000       0xd6
+ .debug_line_str
+                0x00000000       0xd6 build/CMSIS/startup_stm32f103xb.o
+                                 0x46 (size before relaxing)
+ .debug_line_str
+                0x000000d6       0x90 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-strcmp.o)
+
+.debug_loclists
+                0x00000000      0x23c
+ .debug_loclists
+                0x00000000      0x1d7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_loclists
+                0x000001d7       0x65 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)

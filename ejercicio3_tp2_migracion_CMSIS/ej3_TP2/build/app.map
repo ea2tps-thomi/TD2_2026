@@ -313,12 +313,12 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
  .debug_rnglists
                 0x000000a8       0x19 build/CMSIS/startup_stm32f103xb.o
 
-.debug_line     0x00000000      0x892
- .debug_line    0x00000000      0x44b build/src/main.o
- .debug_line    0x0000044b      0x16a build/CMSIS/syscalls.o
- .debug_line    0x000005b5      0x147 build/CMSIS/system_stm32f1xx.o
- .debug_line    0x000006fc       0x78 build/CMSIS/startup_stm32f103xb.o
- .debug_line    0x00000774      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+.debug_line     0x00000000      0x891
+ .debug_line    0x00000000      0x44a build/src/main.o
+ .debug_line    0x0000044a      0x16a build/CMSIS/syscalls.o
+ .debug_line    0x000005b4      0x147 build/CMSIS/system_stm32f1xx.o
+ .debug_line    0x000006fb       0x78 build/CMSIS/startup_stm32f103xb.o
+ .debug_line    0x00000773      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
 
 .debug_str      0x00000000      0xa44
  .debug_str     0x00000000      0xa44 build/src/main.o
