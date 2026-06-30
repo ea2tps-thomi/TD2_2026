@@ -78,13 +78,13 @@ void modo_envio(void)
         // Restaurado a tu lógica original exacta
         if (opcion_envio == 1)
         {
-            write(fd, "ON\n", 3);
-            printf("[Enviado] -> ON\n");
+            write(fd, "ON\n", 3); 
+            printf("[Enviado] -> OFF\n");
         }
         else if (opcion_envio == 2)
         {
             write(fd, "OFF\n", 4);
-            printf("[Enviado] -> OFF\n");
+            printf("[Enviado] -> ON\n");
         }
         else if (opcion_envio == 3)
         {
