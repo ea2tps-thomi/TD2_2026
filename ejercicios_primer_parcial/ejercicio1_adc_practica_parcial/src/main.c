@@ -1,4 +1,3 @@
-//  Ejercicio Practico N.o 4 Transmisión y recepción de datos desde PC a BLuepill y viceversa
 #include <stdint.h>
 #include <stdbool.h>
 #include "stm32f1xx.h"  // archivo de cabecera CMSIS
@@ -12,7 +11,7 @@ void TIM2_Init(void);
 
 int main(void) {
     // 1. Inicializar el sistema y los relojes principales (usualmente provisto por el startup)
-    // SystemInit(); 
+    SystemInit(); 
 
     // 2. Configurar el ADC para que espere el disparo del Timer
     ADC1_Init_Timer_Trigger();
@@ -48,8 +47,8 @@ void ADC1_Init_Timer_Trigger(void) {
     GPIOA->CRL &= ~(GPIO_CRL_MODE0 | GPIO_CRL_CNF0); 
 
     // 4. Configurar la secuencia del grupo regular del ADC
-    ADC1->SQR1 &= ~ADC1_SQR1_L;           // L[3:0] = 0000 -> 1 sola conversión en la secuencia
-    ADC1->SQR3 &= ~ADC1_SQR3_SQ1;         // SQ1[4:0] = 00000 -> El primer canal a medir es el Canal 0
+    ADC1->SQR1 &= ~ADC_SQR1_L;           // L[3:0] = 0000 -> 1 sola conversión en la secuencia
+    ADC1->SQR3 &= ~ADC_SQR3_SQ1;         // SQ1[4:0] = 00000 -> El primer canal a medir es el Canal 0
 
     // 5. Tiempo de muestreo (Sample Time) para el Canal 0
     // Configurado a 55.5 ciclos para asegurar una lectura estable del potenciómetro
@@ -91,14 +90,14 @@ void TIM2_Init(void) {
 
     // 3. Configurar el Canal 2 en modo "Output Compare - Toggle" (Conmutación)
     // Al alcanzar la igualdad en la cuenta, enviará el flanco interno que el ADC está esperando
-    TIM2->CCMR1 &= ~TIM2_CCMR1_OC2M;
-    TIM2->CCMR1 |= (TIM2_CCMR1_OC2M_1 | TIM2_CCMR1_OC2M_0); // Modo Toggle en Match
+    TIM2->CCMR1 &= ~TIM_CCMR1_OC2M;
+    TIM2->CCMR1 |= (TIM_CCMR1_OC2M_1 | TIM_CCMR1_OC2M_0); // Modo Toggle en Match
 
     // 4. Habilitar la salida física interna del canal 2 hacia el ADC
-    TIM2->CCER |= TIM2_CCER_CC2E;
+    TIM2->CCER |= TIM_CCER_CC2E;
 
     // 5. Arrancar el conteo del temporizador
-    TIM2->CR1 |= TIM2_CR1_CEN;
+    TIM2->CR1 |= TIM_CR1_CEN;
 }
 
 /**
