@@ -1,4 +1,3 @@
-//  Ejercicio Practico N.o 4 Transmisión y recepción de datos desde PC a BLuepill y viceversa
 #include <stdint.h>
 #include <stdbool.h>
 #include "stm32f1xx.h"  // archivo de cabecera CMSIS

@@ -1,0 +1,35 @@
+simbolos menor y mayor: 
+<< 
+>> 
+< 
+> 
+~
+****************************************************
+para subir lo de git cuando compilas el makefile 
+
+comando: 
+make upload MSG="actualización del proyecto" 
+
+adentro del makefile 
+
+# Variables
+MSG = "commit automático"
+
+# Compilar (lo que ya tenés)
+build:
+	gcc main.c -o programa
+
+# Git add
+add:
+	git add .
+
+# Git commit
+commit:
+	git commit -m $(MSG)
+
+# Git push
+push:
+	git push
+
+# Todo junto
+upload: add commit push 
