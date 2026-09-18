@@ -1,0 +1,18 @@
+module intercambio #(parameter N = 8) (
+ input logic clk,
+ input logic reset_n,
+ input logic T3,
+ output logic [N-1:0] R1,
+ output logic [N-1:0] R2
+ );
+ always_ff @(posedge clk) begin
+ if (!reset_n) begin
+ R1 <= ’0;
+ R2 <= ’0;
+ end
+ else if (T3) begin
+ R1 <= R2;
+ R2 <= R1;
+ end
+ end
+ endmodule

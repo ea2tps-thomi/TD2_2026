@@ -1,0 +1,1142 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+                              CMSIS/startup_stm32f103xb.o (__libc_init_array)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+                              FreeRTOS/tasks.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+                              FreeRTOS/queue.o (memcpy)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+                              src/main.o (snprintf)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o) (_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o) (_svfprintf_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o) (_malloc_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o) (_free_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o) (memmove)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o) (_realloc_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o) (_printf_i)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o) (__malloc_lock)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o) (memchr)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o) (_malloc_usable_size_r)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o) (errno)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o) (_sbrk)
+
+Discarded input sections
+
+ .text          0x00000000       0x14 CMSIS/startup_stm32f103xb.o
+ .data          0x00000000        0x0 CMSIS/startup_stm32f103xb.o
+ .bss           0x00000000        0x0 CMSIS/startup_stm32f103xb.o
+ .text          0x00000000        0x0 CMSIS/system_stm32f1xx.o
+ .data          0x00000000        0x0 CMSIS/system_stm32f1xx.o
+ .bss           0x00000000        0x0 CMSIS/system_stm32f1xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 CMSIS/system_stm32f1xx.o
+ .bss.var1      0x00000000        0x4 CMSIS/system_stm32f1xx.o
+ .bss.var2      0x00000000        0x4 CMSIS/system_stm32f1xx.o
+ .text          0x00000000        0x0 CMSIS/syscalls.o
+ .data          0x00000000        0x0 CMSIS/syscalls.o
+ .bss           0x00000000        0x0 CMSIS/syscalls.o
+ .text._exit    0x00000000        0xc CMSIS/syscalls.o
+ .text._close   0x00000000       0x16 CMSIS/syscalls.o
+ .text._fstat   0x00000000       0x1e CMSIS/syscalls.o
+ .text._isatty  0x00000000       0x14 CMSIS/syscalls.o
+ .text._lseek   0x00000000       0x18 CMSIS/syscalls.o
+ .text._read    0x00000000       0x18 CMSIS/syscalls.o
+ .text._write   0x00000000       0x18 CMSIS/syscalls.o
+ .text          0x00000000        0x0 src/main.o
+ .data          0x00000000        0x0 src/main.o
+ .bss           0x00000000        0x0 src/main.o
+ .text          0x00000000        0x0 FreeRTOS/list.o
+ .data          0x00000000        0x0 FreeRTOS/list.o
+ .bss           0x00000000        0x0 FreeRTOS/list.o
+ .text.vListInsertEnd
+                0x00000000       0x46 FreeRTOS/list.o
+ .text          0x00000000        0x0 FreeRTOS/queue.o
+ .data          0x00000000        0x0 FreeRTOS/queue.o
+ .bss           0x00000000        0x0 FreeRTOS/queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0xca FreeRTOS/queue.o
+ .text.xQueuePeek
+                0x00000000      0x148 FreeRTOS/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0xc2 FreeRTOS/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x66 FreeRTOS/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x20 FreeRTOS/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x2a FreeRTOS/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x1e FreeRTOS/queue.o
+ .text.vQueueDelete
+                0x00000000       0x1a FreeRTOS/queue.o
+ .text.uxQueueGetQueueItemSize
+                0x00000000       0x16 FreeRTOS/queue.o
+ .text.uxQueueGetQueueLength
+                0x00000000       0x16 FreeRTOS/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x2a FreeRTOS/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x2e FreeRTOS/queue.o
+ .text          0x00000000        0x0 FreeRTOS/tasks.o
+ .data          0x00000000        0x0 FreeRTOS/tasks.o
+ .bss           0x00000000        0x0 FreeRTOS/tasks.o
+ .text.vTaskDelete
+                0x00000000      0x120 FreeRTOS/tasks.o
+ .text.vTaskDelay
+                0x00000000       0x48 FreeRTOS/tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x34 FreeRTOS/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x58 FreeRTOS/tasks.o
+ .text.vTaskPrioritySet
+                0x00000000      0x17c FreeRTOS/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x64 FreeRTOS/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x20 FreeRTOS/tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x2c FreeRTOS/tasks.o
+ .text.xTaskCatchUpTicks
+                0x00000000       0x34 FreeRTOS/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x70 FreeRTOS/tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00000000      0x144 FreeRTOS/tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x30 FreeRTOS/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000       0x1c FreeRTOS/tasks.o
+ .text.xTaskGetCurrentTaskHandleForCore
+                0x00000000       0x30 FreeRTOS/tasks.o
+ .text.xTaskGetSchedulerState
+                0x00000000       0x3c FreeRTOS/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x30 FreeRTOS/tasks.o
+ .text.ulTaskGenericNotifyTake
+                0x00000000       0xe0 FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyWait
+                0x00000000      0x110 FreeRTOS/tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x1d4 FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x24c FreeRTOS/tasks.o
+ .text.vTaskGenericNotifyGiveFromISR
+                0x00000000      0x1bc FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyStateClear
+                0x00000000       0x58 FreeRTOS/tasks.o
+ .text.ulTaskGenericNotifyValueClear
+                0x00000000       0x60 FreeRTOS/tasks.o
+ .text.vTaskResetState
+                0x00000000       0xa0 FreeRTOS/tasks.o
+ .text          0x00000000        0x0 FreeRTOS/timers.o
+ .data          0x00000000        0x0 FreeRTOS/timers.o
+ .bss           0x00000000        0x0 FreeRTOS/timers.o
+ .text.xTimerCreate
+                0x00000000       0x42 FreeRTOS/timers.o
+ .text.prvInitialiseNewTimer
+                0x00000000       0x54 FreeRTOS/timers.o
+ .text.xTimerGenericCommandFromTask
+                0x00000000       0x6c FreeRTOS/timers.o
+ .text.xTimerGenericCommandFromISR
+                0x00000000       0x4c FreeRTOS/timers.o
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x00000000       0x14 FreeRTOS/timers.o
+ .text.xTimerGetPeriod
+                0x00000000       0x1a FreeRTOS/timers.o
+ .text.vTimerSetReloadMode
+                0x00000000       0x4a FreeRTOS/timers.o
+ .text.xTimerGetReloadMode
+                0x00000000       0x36 FreeRTOS/timers.o
+ .text.uxTimerGetReloadMode
+                0x00000000       0x1c FreeRTOS/timers.o
+ .text.xTimerGetExpiryTime
+                0x00000000       0x1e FreeRTOS/timers.o
+ .text.pcTimerGetName
+                0x00000000       0x1a FreeRTOS/timers.o
+ .text.xTimerIsTimerActive
+                0x00000000       0x36 FreeRTOS/timers.o
+ .text.pvTimerGetTimerID
+                0x00000000       0x24 FreeRTOS/timers.o
+ .text.vTimerSetTimerID
+                0x00000000       0x24 FreeRTOS/timers.o
+ .text.vTimerResetState
+                0x00000000       0x20 FreeRTOS/timers.o
+ .text          0x00000000        0x0 FreeRTOS/portable/MemMang/heap_4.o
+ .data          0x00000000        0x0 FreeRTOS/portable/MemMang/heap_4.o
+ .bss           0x00000000        0x0 FreeRTOS/portable/MemMang/heap_4.o
+ .rodata.xHeapStructSize
+                0x00000000        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x14 FreeRTOS/portable/MemMang/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000       0x14 FreeRTOS/portable/MemMang/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0xc FreeRTOS/portable/MemMang/heap_4.o
+ .text.pvPortCalloc
+                0x00000000       0x60 FreeRTOS/portable/MemMang/heap_4.o
+ .text.vPortGetHeapStats
+                0x00000000       0xbc FreeRTOS/portable/MemMang/heap_4.o
+ .text.vPortHeapResetState
+                0x00000000       0x40 FreeRTOS/portable/MemMang/heap_4.o
+ .text          0x00000000        0x0 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .data          0x00000000        0x0 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .bss           0x00000000        0x0 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .text.vPortEndScheduler
+                0x00000000        0xc FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .eh_frame      0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .text          0x00000000       0xd4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD CMSIS/startup_stm32f103xb.o
+LOAD CMSIS/system_stm32f1xx.o
+LOAD CMSIS/syscalls.o
+LOAD src/main.o
+LOAD FreeRTOS/list.o
+LOAD FreeRTOS/queue.o
+LOAD FreeRTOS/tasks.o
+LOAD FreeRTOS/timers.o
+LOAD FreeRTOS/portable/MemMang/heap_4.o
+LOAD FreeRTOS/portable/GCC/ARM_CM3/port.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+                0x20004fff                        _estack = 0x20004fff
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c CMSIS/startup_stm32f103xb.o
+                0x08000000                g_pfnVectors
+                0x0800010c                        . = ALIGN (0x4)
+
+.text           0x08000110     0x36d0
+                0x08000110                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000110       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+                0x08000110                __libc_init_array
+ .text          0x08000160       0xa0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+                0x08000160                memset
+ .text          0x08000200       0xec /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+                0x08000200                memcpy
+ .text          0x080002ec      0x10c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+                0x080002ec                _sniprintf_r
+                0x080002ec                _snprintf_r
+                0x0800036c                snprintf
+                0x0800036c                sniprintf
+ .text          0x080003f8      0x400 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+                0x080003f8                __ssputs_r
+                0x080004b8                __ssprint_r
+                0x080005c8                _svfprintf_r
+                0x080005c8                _svfiprintf_r
+ .text          0x080007f8      0x14c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+                0x08000844                _malloc_r
+ .text          0x08000944       0xbc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+                0x08000944                _free_r
+ .text          0x08000a00       0xfc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+                0x08000a00                memmove
+ .text          0x08000afc       0x64 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+                0x08000afc                _realloc_r
+ .text          0x08000b60      0x3a8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08000b60                _printf_common
+                0x08000c84                _printf_i
+ .text          0x08000f08        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+                0x08000f08                __malloc_lock
+                0x08000f0c                __malloc_unlock
+ .text          0x08000f10       0x98 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+                0x08000f10                memchr
+ .text          0x08000fa8       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+                0x08000fa8                _sbrk_r
+ .text          0x08000fcc       0x10 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+                0x08000fcc                _malloc_usable_size_r
+ .text          0x08000fdc       0x1c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+                0x08000fdc                _sbrk
+ *(.text*)
+ .text.Reset_Handler
+                0x08000ff8       0x48 CMSIS/startup_stm32f103xb.o
+                0x08000ff8                Reset_Handler
+ .text.Default_Handler
+                0x08001040        0x2 CMSIS/startup_stm32f103xb.o
+                0x08001040                RTC_Alarm_IRQHandler
+                0x08001040                EXTI2_IRQHandler
+                0x08001040                DebugMon_Handler
+                0x08001040                TIM1_CC_IRQHandler
+                0x08001040                HardFault_Handler
+                0x08001040                PVD_IRQHandler
+                0x08001040                NMI_Handler
+                0x08001040                EXTI3_IRQHandler
+                0x08001040                EXTI0_IRQHandler
+                0x08001040                I2C2_EV_IRQHandler
+                0x08001040                UsageFault_Handler
+                0x08001040                SPI1_IRQHandler
+                0x08001040                TAMPER_IRQHandler
+                0x08001040                DMA1_Channel4_IRQHandler
+                0x08001040                USART3_IRQHandler
+                0x08001040                RTC_IRQHandler
+                0x08001040                DMA1_Channel7_IRQHandler
+                0x08001040                CAN1_RX1_IRQHandler
+                0x08001040                TIM4_IRQHandler
+                0x08001040                I2C1_EV_IRQHandler
+                0x08001040                DMA1_Channel6_IRQHandler
+                0x08001040                TIM3_IRQHandler
+                0x08001040                RCC_IRQHandler
+                0x08001040                TIM1_TRG_COM_IRQHandler
+                0x08001040                DMA1_Channel1_IRQHandler
+                0x08001040                Default_Handler
+                0x08001040                EXTI15_10_IRQHandler
+                0x08001040                EXTI9_5_IRQHandler
+                0x08001040                SPI2_IRQHandler
+                0x08001040                MemManage_Handler
+                0x08001040                DMA1_Channel5_IRQHandler
+                0x08001040                EXTI4_IRQHandler
+                0x08001040                USB_LP_CAN1_RX0_IRQHandler
+                0x08001040                USB_HP_CAN1_TX_IRQHandler
+                0x08001040                DMA1_Channel3_IRQHandler
+                0x08001040                TIM1_UP_IRQHandler
+                0x08001040                WWDG_IRQHandler
+                0x08001040                TIM2_IRQHandler
+                0x08001040                TIM1_BRK_IRQHandler
+                0x08001040                EXTI1_IRQHandler
+                0x08001040                USART2_IRQHandler
+                0x08001040                I2C2_ER_IRQHandler
+                0x08001040                DMA1_Channel2_IRQHandler
+                0x08001040                CAN1_SCE_IRQHandler
+                0x08001040                FLASH_IRQHandler
+                0x08001040                BusFault_Handler
+                0x08001040                USART1_IRQHandler
+                0x08001040                I2C1_ER_IRQHandler
+                0x08001040                USBWakeUp_IRQHandler
+ *fill*         0x08001042        0x2 
+ .text.SystemInit
+                0x08001044       0xd4 CMSIS/system_stm32f1xx.o
+                0x08001044                SystemInit
+ .text.SystemCoreClockUpdate
+                0x08001118       0xe4 CMSIS/system_stm32f1xx.o
+                0x08001118                SystemCoreClockUpdate
+ .text._init    0x080011fc        0xc CMSIS/syscalls.o
+                0x080011fc                _init
+ .text.__NVIC_EnableIRQ
+                0x08001208       0x38 src/main.o
+ .text.__NVIC_SetPriority
+                0x08001240       0x54 src/main.o
+ .text.main     0x08001294       0x90 src/main.o
+                0x08001294                main
+ .text.vTaskProductoraADC
+                0x08001324       0x6c src/main.o
+                0x08001324                vTaskProductoraADC
+ .text.vTaskConsumidoraUART
+                0x08001390       0x4c src/main.o
+                0x08001390                vTaskConsumidoraUART
+ .text.ADC1_2_IRQHandler
+                0x080013dc       0x5c src/main.o
+                0x080013dc                ADC1_2_IRQHandler
+ .text.Hardware_Init
+                0x08001438       0xcc src/main.o
+                0x08001438                Hardware_Init
+ .text.UART1_Init
+                0x08001504       0x5c src/main.o
+                0x08001504                UART1_Init
+ .text.UART1_SendString
+                0x08001560       0x3c src/main.o
+                0x08001560                UART1_SendString
+ .text.vApplicationIdleHook
+                0x0800159c        0xc src/main.o
+                0x0800159c                vApplicationIdleHook
+ .text.vListInitialise
+                0x080015a8       0x3e FreeRTOS/list.o
+                0x080015a8                vListInitialise
+ .text.vListInitialiseItem
+                0x080015e6       0x18 FreeRTOS/list.o
+                0x080015e6                vListInitialiseItem
+ .text.vListInsert
+                0x080015fe       0x70 FreeRTOS/list.o
+                0x080015fe                vListInsert
+ .text.uxListRemove
+                0x0800166e       0x52 FreeRTOS/list.o
+                0x0800166e                uxListRemove
+ .text.xQueueGenericReset
+                0x080016c0       0xe8 FreeRTOS/queue.o
+                0x080016c0                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x080017a8       0x7e FreeRTOS/queue.o
+                0x080017a8                xQueueGenericCreate
+ .text.prvInitialiseNewQueue
+                0x08001826       0x3e FreeRTOS/queue.o
+ .text.xQueueGenericSend
+                0x08001864      0x154 FreeRTOS/queue.o
+                0x08001864                xQueueGenericSend
+ .text.xQueueGiveFromISR
+                0x080019b8       0xb8 FreeRTOS/queue.o
+                0x080019b8                xQueueGiveFromISR
+ .text.xQueueReceive
+                0x08001a70      0x144 FreeRTOS/queue.o
+                0x08001a70                xQueueReceive
+ .text.xQueueSemaphoreTake
+                0x08001bb4      0x13c FreeRTOS/queue.o
+                0x08001bb4                xQueueSemaphoreTake
+ .text.prvCopyDataToQueue
+                0x08001cf0       0xb8 FreeRTOS/queue.o
+ .text.prvCopyDataFromQueue
+                0x08001da8       0x4c FreeRTOS/queue.o
+ .text.prvUnlockQueue
+                0x08001df4       0xa4 FreeRTOS/queue.o
+ .text.prvIsQueueEmpty
+                0x08001e98       0x2c FreeRTOS/queue.o
+ .text.prvIsQueueFull
+                0x08001ec4       0x30 FreeRTOS/queue.o
+ .text.vQueueWaitForMessageRestricted
+                0x08001ef4       0x68 FreeRTOS/queue.o
+                0x08001ef4                vQueueWaitForMessageRestricted
+ .text.prvCreateTask
+                0x08001f5c       0x78 FreeRTOS/tasks.o
+ .text.xTaskCreate
+                0x08001fd4       0x46 FreeRTOS/tasks.o
+                0x08001fd4                xTaskCreate
+ .text.prvInitialiseNewTask
+                0x0800201a       0xca FreeRTOS/tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x080020e4      0x128 FreeRTOS/tasks.o
+ .text.xTaskDelayUntil
+                0x0800220c       0xa4 FreeRTOS/tasks.o
+                0x0800220c                xTaskDelayUntil
+ .text.prvCreateIdleTasks
+                0x080022b0       0x94 FreeRTOS/tasks.o
+ .text.vTaskStartScheduler
+                0x08002344       0x68 FreeRTOS/tasks.o
+                0x08002344                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x080023ac       0x1c FreeRTOS/tasks.o
+                0x080023ac                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x080023c8      0x1f0 FreeRTOS/tasks.o
+                0x080023c8                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x080025b8       0x1c FreeRTOS/tasks.o
+                0x080025b8                xTaskGetTickCount
+ .text.uxTaskGetNumberOfTasks
+                0x080025d4       0x14 FreeRTOS/tasks.o
+                0x080025d4                uxTaskGetNumberOfTasks
+ .text.xTaskIncrementTick
+                0x080025e8      0x210 FreeRTOS/tasks.o
+                0x080025e8                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x080027f8       0x8c FreeRTOS/tasks.o
+                0x080027f8                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x08002884       0x2c FreeRTOS/tasks.o
+                0x08002884                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x080028b0       0x70 FreeRTOS/tasks.o
+                0x080028b0                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x08002920      0x194 FreeRTOS/tasks.o
+                0x08002920                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x08002ab4       0x2c FreeRTOS/tasks.o
+                0x08002ab4                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x08002ae0       0x84 FreeRTOS/tasks.o
+                0x08002ae0                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x08002b64       0x18 FreeRTOS/tasks.o
+                0x08002b64                vTaskMissedYield
+ .text.prvIdleTask
+                0x08002b7c       0x34 FreeRTOS/tasks.o
+ .text.prvInitialiseTaskLists
+                0x08002bb0       0x74 FreeRTOS/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x08002c24       0x5c FreeRTOS/tasks.o
+ .text.prvDeleteTCB
+                0x08002c80       0x20 FreeRTOS/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x08002ca0       0x34 FreeRTOS/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x08002cd4       0xac FreeRTOS/tasks.o
+ .text.xTimerCreateTimerTask
+                0x08002d80       0x48 FreeRTOS/timers.o
+                0x08002d80                xTimerCreateTimerTask
+ .text.prvReloadTimer
+                0x08002dc8       0x42 FreeRTOS/timers.o
+ *fill*         0x08002e0a        0x2 
+ .text.prvProcessExpiredTimer
+                0x08002e0c       0x60 FreeRTOS/timers.o
+ .text.prvTimerTask
+                0x08002e6c       0x26 FreeRTOS/timers.o
+ *fill*         0x08002e92        0x2 
+ .text.prvProcessTimerOrBlockTask
+                0x08002e94       0x9c FreeRTOS/timers.o
+ .text.prvGetNextExpireTime
+                0x08002f30       0x44 FreeRTOS/timers.o
+ .text.prvSampleTimeNow
+                0x08002f74       0x40 FreeRTOS/timers.o
+ .text.prvInsertTimerInActiveList
+                0x08002fb4       0x84 FreeRTOS/timers.o
+ .text.prvProcessReceivedCommands
+                0x08003038      0x168 FreeRTOS/timers.o
+ .text.prvSwitchTimerLists
+                0x080031a0       0x4c FreeRTOS/timers.o
+ .text.prvCheckForValidListAndQueue
+                0x080031ec       0x54 FreeRTOS/timers.o
+ .text.pvPortMalloc
+                0x08003240      0x15c FreeRTOS/portable/MemMang/heap_4.o
+                0x08003240                pvPortMalloc
+ .text.vPortFree
+                0x0800339c       0x74 FreeRTOS/portable/MemMang/heap_4.o
+                0x0800339c                vPortFree
+ .text.prvHeapInit
+                0x08003410       0xb4 FreeRTOS/portable/MemMang/heap_4.o
+ .text.prvInsertBlockIntoFreeList
+                0x080034c4       0xb0 FreeRTOS/portable/MemMang/heap_4.o
+ .text.pxPortInitialiseStack
+                0x08003574       0x58 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x08003574                pxPortInitialiseStack
+ .text.prvTaskExitError
+                0x080035cc       0x32 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ *fill*         0x080035fe        0x2 
+ .text.vPortSVCHandler
+                0x08003600       0x28 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x08003600                SVC_Handler
+                0x08003600                vPortSVCHandler
+ .text.prvPortStartFirstTask
+                0x08003628       0x24 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .text.xPortStartScheduler
+                0x0800364c       0x5c FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x0800364c                xPortStartScheduler
+ .text.vPortEnterCritical
+                0x080036a8       0x34 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x080036a8                vPortEnterCritical
+ .text.vPortExitCritical
+                0x080036dc       0x34 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x080036dc                vPortExitCritical
+ .text.xPortPendSVHandler
+                0x08003710       0x48 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x08003710                PendSV_Handler
+                0x08003710                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x08003758       0x44 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x08003758                SysTick_Handler
+                0x08003758                xPortSysTickHandler
+ .text.vPortSetupTimerInterrupt
+                0x0800379c       0x44 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x0800379c                vPortSetupTimerInterrupt
+ *(.glue_7)
+ .glue_7        0x080037e0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080037e0        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x080037e0                        . = ALIGN (0x4)
+                0x080037e0                        _etext = .
+
+.vfp11_veneer   0x080037e0        0x0
+ .vfp11_veneer  0x080037e0        0x0 linker stubs
+
+.v4_bx          0x080037e0        0x0
+ .v4_bx         0x080037e0        0x0 linker stubs
+
+.iplt           0x080037e0        0x0
+ .iplt          0x080037e0        0x0 CMSIS/startup_stm32f103xb.o
+
+.rodata         0x080037e0       0x9c
+                0x080037e0                        . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x080037e0       0x3c src/main.o
+ .rodata        0x0800381c        0x5 FreeRTOS/tasks.o
+ *fill*         0x08003821        0x3 
+ .rodata        0x08003824        0x8 FreeRTOS/timers.o
+ *(.rodata*)
+ .rodata.AHBPrescTable
+                0x0800382c       0x10 CMSIS/system_stm32f1xx.o
+                0x0800382c                AHBPrescTable
+ .rodata.uxTopUsedPriority
+                0x0800383c        0x4 FreeRTOS/tasks.o
+ .rodata.str1.4
+                0x08003840       0x39 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+                                 0x13 (size before relaxing)
+ .rodata.str1.4
+                0x08003879       0x25 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x080038a0                        . = ALIGN (0x4)
+ *fill*         0x08003879        0x3 
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0800387c        0x8
+                0x0800387c                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x0800387c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+                0x08003884                        __exidx_end = .
+
+.rel.dyn        0x08003884        0x0
+ .rel.iplt      0x08003884        0x0 CMSIS/startup_stm32f103xb.o
+
+.preinit_array  0x08003884        0x0
+                0x08003884                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x08003884                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x08003884        0x0
+                0x08003884                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x08003884                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x08003884        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x08003884                        _sidata = LOADADDR (.data)
+
+.data           0x20000000       0x58 load address 0x08003884
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ .data          0x20000000       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+                0x20000000                _impure_ptr
+                0x20000004                _impure_data
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000050        0x4 CMSIS/system_stm32f1xx.o
+                0x20000050                SystemCoreClock
+ .data.uxCriticalNesting
+                0x20000054        0x4 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x20000058                        . = ALIGN (0x4)
+                0x20000058                        _edata = .
+
+.igot.plt       0x20000058        0x0 load address 0x080038dc
+ .igot.plt      0x20000058        0x0 CMSIS/startup_stm32f103xb.o
+                0x20000058                        . = ALIGN (0x4)
+
+.bss            0x20000058     0x296c load address 0x080038dc
+                0x20000058                        _sbss = .
+                0x20000058                        __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000058        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+                0x20000058                __malloc_sbrk_start
+                0x2000005c                __malloc_free_list
+ .bss           0x20000060        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+                0x20000060                errno
+ .bss           0x20000064        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+ *(.bss*)
+ .bss.xAdcSemaphore
+                0x20000068        0x4 src/main.o
+                0x20000068                xAdcSemaphore
+ .bss.xAdcQueue
+                0x2000006c        0x4 src/main.o
+                0x2000006c                xAdcQueue
+ .bss.xTaskProductoraHandle
+                0x20000070        0x4 src/main.o
+                0x20000070                xTaskProductoraHandle
+ .bss.xTaskConsumidoraHandle
+                0x20000074        0x4 src/main.o
+                0x20000074                xTaskConsumidoraHandle
+ .bss.g_adc_raw_value
+                0x20000078        0x2 src/main.o
+                0x20000078                g_adc_raw_value
+ *fill*         0x2000007a        0x2 
+ .bss.pxCurrentTCB
+                0x2000007c        0x4 FreeRTOS/tasks.o
+                0x2000007c                pxCurrentTCB
+ .bss.pxReadyTasksLists
+                0x20000080       0x64 FreeRTOS/tasks.o
+ .bss.xDelayedTaskList1
+                0x200000e4       0x14 FreeRTOS/tasks.o
+ .bss.xDelayedTaskList2
+                0x200000f8       0x14 FreeRTOS/tasks.o
+ .bss.pxDelayedTaskList
+                0x2000010c        0x4 FreeRTOS/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x20000110        0x4 FreeRTOS/tasks.o
+ .bss.xPendingReadyList
+                0x20000114       0x14 FreeRTOS/tasks.o
+ .bss.xTasksWaitingTermination
+                0x20000128       0x14 FreeRTOS/tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x2000013c        0x4 FreeRTOS/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x20000140        0x4 FreeRTOS/tasks.o
+ .bss.xTickCount
+                0x20000144        0x4 FreeRTOS/tasks.o
+ .bss.uxTopReadyPriority
+                0x20000148        0x4 FreeRTOS/tasks.o
+ .bss.xSchedulerRunning
+                0x2000014c        0x4 FreeRTOS/tasks.o
+ .bss.xPendedTicks
+                0x20000150        0x4 FreeRTOS/tasks.o
+ .bss.xYieldPendings
+                0x20000154        0x4 FreeRTOS/tasks.o
+ .bss.xNumOfOverflows
+                0x20000158        0x4 FreeRTOS/tasks.o
+ .bss.uxTaskNumber
+                0x2000015c        0x4 FreeRTOS/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x20000160        0x4 FreeRTOS/tasks.o
+ .bss.xIdleTaskHandles
+                0x20000164        0x4 FreeRTOS/tasks.o
+ .bss.uxSchedulerSuspended
+                0x20000168        0x4 FreeRTOS/tasks.o
+ .bss.xActiveTimerList1
+                0x2000016c       0x14 FreeRTOS/timers.o
+ .bss.xActiveTimerList2
+                0x20000180       0x14 FreeRTOS/timers.o
+ .bss.pxCurrentTimerList
+                0x20000194        0x4 FreeRTOS/timers.o
+ .bss.pxOverflowTimerList
+                0x20000198        0x4 FreeRTOS/timers.o
+ .bss.xTimerQueue
+                0x2000019c        0x4 FreeRTOS/timers.o
+ .bss.xTimerTaskHandle
+                0x200001a0        0x4 FreeRTOS/timers.o
+ .bss.xLastTime.0
+                0x200001a4        0x4 FreeRTOS/timers.o
+ .bss.ucHeap    0x200001a8     0x2800 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xStart    0x200029a8        0x8 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.pxEnd     0x200029b0        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xFreeBytesRemaining
+                0x200029b4        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x200029b8        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xNumberOfSuccessfulAllocations
+                0x200029bc        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xNumberOfSuccessfulFrees
+                0x200029c0        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ *(COMMON)
+                0x200029c4                        . = ALIGN (0x4)
+                0x200029c4                        _ebss = .
+                0x200029c4                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x200029c4      0x604 load address 0x080038dc
+                0x200029c8                        . = ALIGN (0x8)
+ *fill*         0x200029c4        0x4 
+                0x200029c8                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20002bc8                        . = (. + _Min_Heap_Size)
+ *fill*         0x200029c8      0x200 
+                0x20002fc8                        . = (. + _Min_Stack_Size)
+ *fill*         0x20002bc8      0x400 
+                0x20002fc8                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2f
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x21 CMSIS/startup_stm32f103xb.o
+ .ARM.attributes
+                0x00000021       0x2d CMSIS/system_stm32f1xx.o
+ .ARM.attributes
+                0x0000004e       0x2d CMSIS/syscalls.o
+ .ARM.attributes
+                0x0000007b       0x2d src/main.o
+ .ARM.attributes
+                0x000000a8       0x2d FreeRTOS/list.o
+ .ARM.attributes
+                0x000000d5       0x2d FreeRTOS/queue.o
+ .ARM.attributes
+                0x00000102       0x2d FreeRTOS/tasks.o
+ .ARM.attributes
+                0x0000012f       0x2d FreeRTOS/timers.o
+ .ARM.attributes
+                0x0000015c       0x2d FreeRTOS/portable/MemMang/heap_4.o
+ .ARM.attributes
+                0x00000189       0x2d FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .ARM.attributes
+                0x000001b6       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x000001e3       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000210       0x1b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .ARM.attributes
+                0x0000022b       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .ARM.attributes
+                0x00000258       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000285       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x000002b2       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x000002df       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x0000030c       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .ARM.attributes
+                0x00000339       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .ARM.attributes
+                0x00000366       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000393       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x000003c0       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .ARM.attributes
+                0x000003ed       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x0000041a       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .ARM.attributes
+                0x00000447       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000474       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+OUTPUT(app.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+
+.debug_info     0x00000000     0xc0ab
+ .debug_info    0x00000000      0x298 CMSIS/system_stm32f1xx.o
+ .debug_info    0x00000298      0x405 CMSIS/syscalls.o
+ .debug_info    0x0000069d      0xbb8 src/main.o
+ .debug_info    0x00001255      0x29a FreeRTOS/list.o
+ .debug_info    0x000014ef      0xfb9 FreeRTOS/queue.o
+ .debug_info    0x000024a8     0x19c1 FreeRTOS/tasks.o
+ .debug_info    0x00003e69      0xcad FreeRTOS/timers.o
+ .debug_info    0x00004b16      0x48d FreeRTOS/portable/MemMang/heap_4.o
+ .debug_info    0x00004fa3      0x323 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_info    0x000052c6      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_info    0x000053d1      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_info    0x00005506       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_info    0x00005539      0x8ff /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .debug_info    0x00005e38      0x70b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .debug_info    0x00006543     0x1094 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_info    0x000075d7      0x9b6 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_info    0x00007f8d      0x87f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_info    0x0000880c      0x148 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .debug_info    0x00008954      0x8cd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .debug_info    0x00009221      0xdd7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_info    0x00009ff8      0x71c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_info    0x0000a714      0x14a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .debug_info    0x0000a85e      0x778 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_info    0x0000afd6      0x78a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .debug_info    0x0000b760      0x89f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_info    0x0000bfff       0xac /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.debug_abbrev   0x00000000     0x2d93
+ .debug_abbrev  0x00000000      0x156 CMSIS/system_stm32f1xx.o
+ .debug_abbrev  0x00000156       0xf0 CMSIS/syscalls.o
+ .debug_abbrev  0x00000246      0x2cc src/main.o
+ .debug_abbrev  0x00000512       0xec FreeRTOS/list.o
+ .debug_abbrev  0x000005fe      0x2a2 FreeRTOS/queue.o
+ .debug_abbrev  0x000008a0      0x380 FreeRTOS/tasks.o
+ .debug_abbrev  0x00000c20      0x29f FreeRTOS/timers.o
+ .debug_abbrev  0x00000ebf      0x1f3 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_abbrev  0x000010b2      0x247 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_abbrev  0x000012f9       0xc9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_abbrev  0x000013c2       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x00001479       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_abbrev  0x000014a1      0x23c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .debug_abbrev  0x000016dd      0x149 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .debug_abbrev  0x00001826      0x32f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_abbrev  0x00001b55      0x24a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_abbrev  0x00001d9f      0x249 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_abbrev  0x00001fe8       0xc3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .debug_abbrev  0x000020ab      0x20c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .debug_abbrev  0x000022b7      0x284 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_abbrev  0x0000253b      0x192 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_abbrev  0x000026cd       0xc7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .debug_abbrev  0x00002794      0x1da /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_abbrev  0x0000296e      0x196 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .debug_abbrev  0x00002b04      0x1ee /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_abbrev  0x00002cf2       0xa1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.debug_aranges  0x00000000      0x780
+ .debug_aranges
+                0x00000000       0x28 CMSIS/system_stm32f1xx.o
+ .debug_aranges
+                0x00000028       0x58 CMSIS/syscalls.o
+ .debug_aranges
+                0x00000080       0x68 src/main.o
+ .debug_aranges
+                0x000000e8       0x40 FreeRTOS/list.o
+ .debug_aranges
+                0x00000128       0xe0 FreeRTOS/queue.o
+ .debug_aranges
+                0x00000208      0x1a0 FreeRTOS/tasks.o
+ .debug_aranges
+                0x000003a8       0xe8 FreeRTOS/timers.o
+ .debug_aranges
+                0x00000490       0x68 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_aranges
+                0x000004f8       0x70 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_aranges
+                0x00000568       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_aranges
+                0x00000588       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_aranges
+                0x000005a8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_aranges
+                0x000005c8       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .debug_aranges
+                0x000005e8       0x18 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .debug_aranges
+                0x00000600       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_aranges
+                0x00000620       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_aranges
+                0x00000640       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_aranges
+                0x00000660       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .debug_aranges
+                0x00000680       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .debug_aranges
+                0x000006a0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_aranges
+                0x000006c0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_aranges
+                0x000006e0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .debug_aranges
+                0x00000700       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_aranges
+                0x00000720       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .debug_aranges
+                0x00000740       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_aranges
+                0x00000760       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.debug_rnglists
+                0x00000000      0x4e3
+ .debug_rnglists
+                0x00000000       0x1b CMSIS/system_stm32f1xx.o
+ .debug_rnglists
+                0x0000001b       0x3d CMSIS/syscalls.o
+ .debug_rnglists
+                0x00000058       0x4b src/main.o
+ .debug_rnglists
+                0x000000a3       0x2b FreeRTOS/list.o
+ .debug_rnglists
+                0x000000ce       0xad FreeRTOS/queue.o
+ .debug_rnglists
+                0x0000017b      0x146 FreeRTOS/tasks.o
+ .debug_rnglists
+                0x000002c1       0xac FreeRTOS/timers.o
+ .debug_rnglists
+                0x0000036d       0x4d FreeRTOS/portable/MemMang/heap_4.o
+ .debug_rnglists
+                0x000003ba       0x4f FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_rnglists
+                0x00000409       0x42 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_rnglists
+                0x0000044b       0x1f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_rnglists
+                0x0000046a       0x13 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_rnglists
+                0x0000047d       0x66 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+
+.debug_line     0x00000000     0x5ae8
+ .debug_line    0x00000000      0x1da CMSIS/system_stm32f1xx.o
+ .debug_line    0x000001da      0x16a CMSIS/syscalls.o
+ .debug_line    0x00000344      0x3a3 src/main.o
+ .debug_line    0x000006e7      0x1d4 FreeRTOS/list.o
+ .debug_line    0x000008bb      0x9c4 FreeRTOS/queue.o
+ .debug_line    0x0000127f      0xf4b FreeRTOS/tasks.o
+ .debug_line    0x000021ca      0x636 FreeRTOS/timers.o
+ .debug_line    0x00002800      0x420 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_line    0x00002c20      0x2b2 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_line    0x00002ed2      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_line    0x00002ff0      0x1b1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_line    0x000031a1       0xbd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_line    0x0000325e      0x356 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .debug_line    0x000035b4       0xe7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .debug_line    0x0000369b      0x862 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_line    0x00003efd      0x45c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_line    0x00004359      0x2c8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_line    0x00004621      0x20d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .debug_line    0x0000482e      0x1fa /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .debug_line    0x00004a28      0x770 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_line    0x00005198      0x153 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_line    0x000052eb      0x200 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .debug_line    0x000054eb      0x196 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_line    0x00005681      0x176 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .debug_line    0x000057f7      0x27b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_line    0x00005a72       0x76 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.debug_str      0x00000000     0x2ec0
+ .debug_str     0x00000000     0x2ec0 CMSIS/system_stm32f1xx.o
+                                0x22e (size before relaxing)
+ .debug_str     0x00002ec0      0x2dd CMSIS/syscalls.o
+ .debug_str     0x00002ec0      0x89c src/main.o
+ .debug_str     0x00002ec0      0x296 FreeRTOS/list.o
+ .debug_str     0x00002ec0      0x863 FreeRTOS/queue.o
+ .debug_str     0x00002ec0      0xed1 FreeRTOS/tasks.o
+ .debug_str     0x00002ec0      0x8a0 FreeRTOS/timers.o
+ .debug_str     0x00002ec0      0x4c1 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_str     0x00002ec0      0x348 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_str     0x00002ec0      0x1f2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_str     0x00002ec0      0x1a5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_str     0x00002ec0       0xa8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)
+ .debug_str     0x00002ec0      0x502 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .debug_str     0x00002ec0      0x4b4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .debug_str     0x00002ec0      0x7fd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_str     0x00002ec0      0x595 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_str     0x00002ec0      0x534 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_str     0x00002ec0      0x1c4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .debug_str     0x00002ec0      0x52a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .debug_str     0x00002ec0      0x793 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_str     0x00002ec0      0x4d2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_str     0x00002ec0      0x1b5 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .debug_str     0x00002ec0      0x4bd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_str     0x00002ec0      0x4fd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .debug_str     0x00002ec0      0x4d3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_str     0x00002ec0      0x115 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 CMSIS/system_stm32f1xx.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 CMSIS/syscalls.o
+ .comment       0x00000026       0x27 src/main.o
+ .comment       0x00000026       0x27 FreeRTOS/list.o
+ .comment       0x00000026       0x27 FreeRTOS/queue.o
+ .comment       0x00000026       0x27 FreeRTOS/tasks.o
+ .comment       0x00000026       0x27 FreeRTOS/timers.o
+ .comment       0x00000026       0x27 FreeRTOS/portable/MemMang/heap_4.o
+ .comment       0x00000026       0x27 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-impure.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.debug_frame    0x00000000     0x1944
+ .debug_frame   0x00000000       0x58 CMSIS/system_stm32f1xx.o
+ .debug_frame   0x00000058      0x13c CMSIS/syscalls.o
+ .debug_frame   0x00000194      0x170 src/main.o
+ .debug_frame   0x00000304       0xd8 FreeRTOS/list.o
+ .debug_frame   0x000003dc      0x3a8 FreeRTOS/queue.o
+ .debug_frame   0x00000784      0x71c FreeRTOS/tasks.o
+ .debug_frame   0x00000ea0      0x3b4 FreeRTOS/timers.o
+ .debug_frame   0x00001254      0x170 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_frame   0x000013c4      0x168 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_frame   0x0000152c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_frame   0x00001558       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x00001584       0x94 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .debug_frame   0x00001618       0x98 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x000016b0       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00001700       0x58 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_frame   0x00001758       0x40 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .debug_frame   0x00001798       0x38 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .debug_frame   0x000017d0       0x6c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000183c       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mlock.o)
+ .debug_frame   0x0000186c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .debug_frame   0x00001898       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x000018c4       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .debug_frame   0x000018e4       0x40 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_frame   0x00001924       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.debug_loclists
+                0x00000000     0x177f
+ .debug_loclists
+                0x00000000       0x65 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-init.o)
+ .debug_loclists
+                0x00000065      0x1d7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memset.o)
+ .debug_loclists
+                0x0000023c      0x214 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-snprintf.o)
+ .debug_loclists
+                0x00000450      0x531 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_loclists
+                0x00000981      0x273 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-mallocr.o)
+ .debug_loclists
+                0x00000bf4      0x164 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-freer.o)
+ .debug_loclists
+                0x00000d58      0x21b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memmove.o)
+ .debug_loclists
+                0x00000f73      0x102 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reallocr.o)
+ .debug_loclists
+                0x00001075      0x444 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_loclists
+                0x000014b9      0x172 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memchr-stub.o)
+ .debug_loclists
+                0x0000162b       0x4b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-sbrkr.o)
+ .debug_loclists
+                0x00001676       0x59 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-msizer.o)
+ .debug_loclists
+                0x000016cf       0x80 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-reent.o)
+ .debug_loclists
+                0x0000174f       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+
+.debug_line_str
+                0x00000000       0x95
+ .debug_line_str
+                0x00000000       0x95 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(libc_a-memcpy.o)

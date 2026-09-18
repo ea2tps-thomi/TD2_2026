@@ -1,0 +1,819 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+                              FreeRTOS/tasks.o (memset)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+                              FreeRTOS/queue.o (memcpy)
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+                              CMSIS/startup_stm32f103xb.o (__libc_init_array)
+
+Discarded input sections
+
+ .text          0x00000000       0x14 CMSIS/startup_stm32f103xb.o
+ .data          0x00000000        0x0 CMSIS/startup_stm32f103xb.o
+ .bss           0x00000000        0x0 CMSIS/startup_stm32f103xb.o
+ .text          0x00000000        0x0 CMSIS/system_stm32f1xx.o
+ .data          0x00000000        0x0 CMSIS/system_stm32f1xx.o
+ .bss           0x00000000        0x0 CMSIS/system_stm32f1xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 CMSIS/system_stm32f1xx.o
+ .bss.var1      0x00000000        0x4 CMSIS/system_stm32f1xx.o
+ .bss.var2      0x00000000        0x4 CMSIS/system_stm32f1xx.o
+ .text          0x00000000        0x0 CMSIS/syscalls.o
+ .data          0x00000000        0x0 CMSIS/syscalls.o
+ .bss           0x00000000        0x0 CMSIS/syscalls.o
+ .text._exit    0x00000000        0xc CMSIS/syscalls.o
+ .text._close   0x00000000       0x16 CMSIS/syscalls.o
+ .text._fstat   0x00000000       0x1e CMSIS/syscalls.o
+ .text._isatty  0x00000000       0x14 CMSIS/syscalls.o
+ .text._lseek   0x00000000       0x18 CMSIS/syscalls.o
+ .text._read    0x00000000       0x18 CMSIS/syscalls.o
+ .text._write   0x00000000       0x18 CMSIS/syscalls.o
+ .text          0x00000000        0x0 src/main.o
+ .data          0x00000000        0x0 src/main.o
+ .bss           0x00000000        0x0 src/main.o
+ .text          0x00000000        0x0 FreeRTOS/list.o
+ .data          0x00000000        0x0 FreeRTOS/list.o
+ .bss           0x00000000        0x0 FreeRTOS/list.o
+ .text.vListInsertEnd
+                0x00000000       0x46 FreeRTOS/list.o
+ .text          0x00000000        0x0 FreeRTOS/queue.o
+ .data          0x00000000        0x0 FreeRTOS/queue.o
+ .bss           0x00000000        0x0 FreeRTOS/queue.o
+ .text.xQueueGenericSend
+                0x00000000      0x154 FreeRTOS/queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0xca FreeRTOS/queue.o
+ .text.xQueueGiveFromISR
+                0x00000000       0xb8 FreeRTOS/queue.o
+ .text.xQueueSemaphoreTake
+                0x00000000      0x13c FreeRTOS/queue.o
+ .text.xQueuePeek
+                0x00000000      0x148 FreeRTOS/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0xc2 FreeRTOS/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x66 FreeRTOS/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x20 FreeRTOS/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x2a FreeRTOS/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x1e FreeRTOS/queue.o
+ .text.vQueueDelete
+                0x00000000       0x1a FreeRTOS/queue.o
+ .text.uxQueueGetQueueItemSize
+                0x00000000       0x16 FreeRTOS/queue.o
+ .text.uxQueueGetQueueLength
+                0x00000000       0x16 FreeRTOS/queue.o
+ .text.prvCopyDataToQueue
+                0x00000000       0xb8 FreeRTOS/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x2a FreeRTOS/queue.o
+ .text.prvIsQueueFull
+                0x00000000       0x30 FreeRTOS/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x2e FreeRTOS/queue.o
+ .text          0x00000000        0x0 FreeRTOS/tasks.o
+ .data          0x00000000        0x0 FreeRTOS/tasks.o
+ .bss           0x00000000        0x0 FreeRTOS/tasks.o
+ .text.vTaskDelete
+                0x00000000      0x120 FreeRTOS/tasks.o
+ .text.xTaskDelayUntil
+                0x00000000       0xa4 FreeRTOS/tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x34 FreeRTOS/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x58 FreeRTOS/tasks.o
+ .text.vTaskPrioritySet
+                0x00000000      0x17c FreeRTOS/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x64 FreeRTOS/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x20 FreeRTOS/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x14 FreeRTOS/tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x2c FreeRTOS/tasks.o
+ .text.xTaskCatchUpTicks
+                0x00000000       0x34 FreeRTOS/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x70 FreeRTOS/tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00000000      0x144 FreeRTOS/tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x30 FreeRTOS/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000       0x1c FreeRTOS/tasks.o
+ .text.xTaskGetCurrentTaskHandleForCore
+                0x00000000       0x30 FreeRTOS/tasks.o
+ .text.xTaskGetSchedulerState
+                0x00000000       0x3c FreeRTOS/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x30 FreeRTOS/tasks.o
+ .text.ulTaskGenericNotifyTake
+                0x00000000       0xe0 FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyWait
+                0x00000000      0x110 FreeRTOS/tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x1d4 FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x24c FreeRTOS/tasks.o
+ .text.vTaskGenericNotifyGiveFromISR
+                0x00000000      0x1bc FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyStateClear
+                0x00000000       0x58 FreeRTOS/tasks.o
+ .text.ulTaskGenericNotifyValueClear
+                0x00000000       0x60 FreeRTOS/tasks.o
+ .text.vTaskResetState
+                0x00000000       0xa0 FreeRTOS/tasks.o
+ .text          0x00000000        0x0 FreeRTOS/timers.o
+ .data          0x00000000        0x0 FreeRTOS/timers.o
+ .bss           0x00000000        0x0 FreeRTOS/timers.o
+ .text.xTimerCreate
+                0x00000000       0x42 FreeRTOS/timers.o
+ .text.prvInitialiseNewTimer
+                0x00000000       0x54 FreeRTOS/timers.o
+ .text.xTimerGenericCommandFromTask
+                0x00000000       0x6c FreeRTOS/timers.o
+ .text.xTimerGenericCommandFromISR
+                0x00000000       0x4c FreeRTOS/timers.o
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x00000000       0x14 FreeRTOS/timers.o
+ .text.xTimerGetPeriod
+                0x00000000       0x1a FreeRTOS/timers.o
+ .text.vTimerSetReloadMode
+                0x00000000       0x4a FreeRTOS/timers.o
+ .text.xTimerGetReloadMode
+                0x00000000       0x36 FreeRTOS/timers.o
+ .text.uxTimerGetReloadMode
+                0x00000000       0x1c FreeRTOS/timers.o
+ .text.xTimerGetExpiryTime
+                0x00000000       0x1e FreeRTOS/timers.o
+ .text.pcTimerGetName
+                0x00000000       0x1a FreeRTOS/timers.o
+ .text.xTimerIsTimerActive
+                0x00000000       0x36 FreeRTOS/timers.o
+ .text.pvTimerGetTimerID
+                0x00000000       0x24 FreeRTOS/timers.o
+ .text.vTimerSetTimerID
+                0x00000000       0x24 FreeRTOS/timers.o
+ .text.vTimerResetState
+                0x00000000       0x20 FreeRTOS/timers.o
+ .text          0x00000000        0x0 FreeRTOS/portable/MemMang/heap_4.o
+ .data          0x00000000        0x0 FreeRTOS/portable/MemMang/heap_4.o
+ .bss           0x00000000        0x0 FreeRTOS/portable/MemMang/heap_4.o
+ .rodata.xHeapStructSize
+                0x00000000        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x14 FreeRTOS/portable/MemMang/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000       0x14 FreeRTOS/portable/MemMang/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0xc FreeRTOS/portable/MemMang/heap_4.o
+ .text.pvPortCalloc
+                0x00000000       0x60 FreeRTOS/portable/MemMang/heap_4.o
+ .text.vPortGetHeapStats
+                0x00000000       0xbc FreeRTOS/portable/MemMang/heap_4.o
+ .text.vPortHeapResetState
+                0x00000000       0x40 FreeRTOS/portable/MemMang/heap_4.o
+ .text          0x00000000        0x0 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .data          0x00000000        0x0 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .bss           0x00000000        0x0 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .text.vPortEndScheduler
+                0x00000000        0xc FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .eh_frame      0x00000000       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD CMSIS/startup_stm32f103xb.o
+LOAD CMSIS/system_stm32f1xx.o
+LOAD CMSIS/syscalls.o
+LOAD src/main.o
+LOAD FreeRTOS/list.o
+LOAD FreeRTOS/queue.o
+LOAD FreeRTOS/tasks.o
+LOAD FreeRTOS/timers.o
+LOAD FreeRTOS/portable/MemMang/heap_4.o
+LOAD FreeRTOS/portable/GCC/ARM_CM3/port.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+END GROUP
+                0x20004fff                        _estack = 0x20004fff
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c CMSIS/startup_stm32f103xb.o
+                0x08000000                g_pfnVectors
+                0x0800010c                        . = ALIGN (0x4)
+
+.text           0x08000110     0x2220
+                0x08000110                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000110       0xa0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+                0x08000110                memset
+ .text          0x080001b0       0xec /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+                0x080001b0                memcpy
+ .text          0x0800029c       0x50 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+                0x0800029c                __libc_init_array
+ *(.text*)
+ .text.Reset_Handler
+                0x080002ec       0x48 CMSIS/startup_stm32f103xb.o
+                0x080002ec                Reset_Handler
+ .text.Default_Handler
+                0x08000334        0x2 CMSIS/startup_stm32f103xb.o
+                0x08000334                RTC_Alarm_IRQHandler
+                0x08000334                EXTI2_IRQHandler
+                0x08000334                DebugMon_Handler
+                0x08000334                TIM1_CC_IRQHandler
+                0x08000334                HardFault_Handler
+                0x08000334                PVD_IRQHandler
+                0x08000334                NMI_Handler
+                0x08000334                EXTI3_IRQHandler
+                0x08000334                EXTI0_IRQHandler
+                0x08000334                I2C2_EV_IRQHandler
+                0x08000334                UsageFault_Handler
+                0x08000334                ADC1_2_IRQHandler
+                0x08000334                SPI1_IRQHandler
+                0x08000334                TAMPER_IRQHandler
+                0x08000334                DMA1_Channel4_IRQHandler
+                0x08000334                USART3_IRQHandler
+                0x08000334                RTC_IRQHandler
+                0x08000334                DMA1_Channel7_IRQHandler
+                0x08000334                CAN1_RX1_IRQHandler
+                0x08000334                TIM4_IRQHandler
+                0x08000334                I2C1_EV_IRQHandler
+                0x08000334                DMA1_Channel6_IRQHandler
+                0x08000334                TIM3_IRQHandler
+                0x08000334                RCC_IRQHandler
+                0x08000334                TIM1_TRG_COM_IRQHandler
+                0x08000334                DMA1_Channel1_IRQHandler
+                0x08000334                Default_Handler
+                0x08000334                EXTI15_10_IRQHandler
+                0x08000334                EXTI9_5_IRQHandler
+                0x08000334                SPI2_IRQHandler
+                0x08000334                MemManage_Handler
+                0x08000334                DMA1_Channel5_IRQHandler
+                0x08000334                EXTI4_IRQHandler
+                0x08000334                USB_LP_CAN1_RX0_IRQHandler
+                0x08000334                USB_HP_CAN1_TX_IRQHandler
+                0x08000334                DMA1_Channel3_IRQHandler
+                0x08000334                TIM1_UP_IRQHandler
+                0x08000334                WWDG_IRQHandler
+                0x08000334                TIM2_IRQHandler
+                0x08000334                TIM1_BRK_IRQHandler
+                0x08000334                EXTI1_IRQHandler
+                0x08000334                USART2_IRQHandler
+                0x08000334                I2C2_ER_IRQHandler
+                0x08000334                DMA1_Channel2_IRQHandler
+                0x08000334                CAN1_SCE_IRQHandler
+                0x08000334                FLASH_IRQHandler
+                0x08000334                BusFault_Handler
+                0x08000334                USART1_IRQHandler
+                0x08000334                I2C1_ER_IRQHandler
+                0x08000334                USBWakeUp_IRQHandler
+ *fill*         0x08000336        0x2 
+ .text.SystemInit
+                0x08000338       0xd4 CMSIS/system_stm32f1xx.o
+                0x08000338                SystemInit
+ .text.SystemCoreClockUpdate
+                0x0800040c       0xe4 CMSIS/system_stm32f1xx.o
+                0x0800040c                SystemCoreClockUpdate
+ .text._init    0x080004f0        0xc CMSIS/syscalls.o
+                0x080004f0                _init
+ .text.vBlinkTask
+                0x080004fc       0x30 src/main.o
+                0x080004fc                vBlinkTask
+ .text.main     0x0800052c       0x68 src/main.o
+                0x0800052c                main
+ .text.vListInitialise
+                0x08000594       0x3e FreeRTOS/list.o
+                0x08000594                vListInitialise
+ .text.vListInitialiseItem
+                0x080005d2       0x18 FreeRTOS/list.o
+                0x080005d2                vListInitialiseItem
+ .text.vListInsert
+                0x080005ea       0x70 FreeRTOS/list.o
+                0x080005ea                vListInsert
+ .text.uxListRemove
+                0x0800065a       0x52 FreeRTOS/list.o
+                0x0800065a                uxListRemove
+ .text.xQueueGenericReset
+                0x080006ac       0xe8 FreeRTOS/queue.o
+                0x080006ac                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x08000794       0x7e FreeRTOS/queue.o
+                0x08000794                xQueueGenericCreate
+ .text.prvInitialiseNewQueue
+                0x08000812       0x3e FreeRTOS/queue.o
+ .text.xQueueReceive
+                0x08000850      0x144 FreeRTOS/queue.o
+                0x08000850                xQueueReceive
+ .text.prvCopyDataFromQueue
+                0x08000994       0x4c FreeRTOS/queue.o
+ .text.prvUnlockQueue
+                0x080009e0       0xa4 FreeRTOS/queue.o
+ .text.prvIsQueueEmpty
+                0x08000a84       0x2c FreeRTOS/queue.o
+ .text.vQueueWaitForMessageRestricted
+                0x08000ab0       0x68 FreeRTOS/queue.o
+                0x08000ab0                vQueueWaitForMessageRestricted
+ .text.prvCreateTask
+                0x08000b18       0x78 FreeRTOS/tasks.o
+ .text.xTaskCreate
+                0x08000b90       0x46 FreeRTOS/tasks.o
+                0x08000b90                xTaskCreate
+ .text.prvInitialiseNewTask
+                0x08000bd6       0xca FreeRTOS/tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x08000ca0      0x128 FreeRTOS/tasks.o
+ .text.vTaskDelay
+                0x08000dc8       0x48 FreeRTOS/tasks.o
+                0x08000dc8                vTaskDelay
+ .text.prvCreateIdleTasks
+                0x08000e10       0x94 FreeRTOS/tasks.o
+ .text.vTaskStartScheduler
+                0x08000ea4       0x68 FreeRTOS/tasks.o
+                0x08000ea4                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x08000f0c       0x1c FreeRTOS/tasks.o
+                0x08000f0c                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x08000f28      0x1f0 FreeRTOS/tasks.o
+                0x08000f28                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x08001118       0x1c FreeRTOS/tasks.o
+                0x08001118                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x08001134      0x210 FreeRTOS/tasks.o
+                0x08001134                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x08001344       0x8c FreeRTOS/tasks.o
+                0x08001344                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x080013d0       0x2c FreeRTOS/tasks.o
+                0x080013d0                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x080013fc       0x70 FreeRTOS/tasks.o
+                0x080013fc                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x0800146c      0x194 FreeRTOS/tasks.o
+                0x0800146c                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x08001600       0x2c FreeRTOS/tasks.o
+                0x08001600                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x0800162c       0x84 FreeRTOS/tasks.o
+                0x0800162c                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x080016b0       0x18 FreeRTOS/tasks.o
+                0x080016b0                vTaskMissedYield
+ .text.prvIdleTask
+                0x080016c8       0x30 FreeRTOS/tasks.o
+ .text.prvInitialiseTaskLists
+                0x080016f8       0x74 FreeRTOS/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x0800176c       0x5c FreeRTOS/tasks.o
+ .text.prvDeleteTCB
+                0x080017c8       0x20 FreeRTOS/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x080017e8       0x34 FreeRTOS/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x0800181c       0xac FreeRTOS/tasks.o
+ .text.xTimerCreateTimerTask
+                0x080018c8       0x48 FreeRTOS/timers.o
+                0x080018c8                xTimerCreateTimerTask
+ .text.prvReloadTimer
+                0x08001910       0x42 FreeRTOS/timers.o
+ *fill*         0x08001952        0x2 
+ .text.prvProcessExpiredTimer
+                0x08001954       0x60 FreeRTOS/timers.o
+ .text.prvTimerTask
+                0x080019b4       0x26 FreeRTOS/timers.o
+ *fill*         0x080019da        0x2 
+ .text.prvProcessTimerOrBlockTask
+                0x080019dc       0x9c FreeRTOS/timers.o
+ .text.prvGetNextExpireTime
+                0x08001a78       0x44 FreeRTOS/timers.o
+ .text.prvSampleTimeNow
+                0x08001abc       0x40 FreeRTOS/timers.o
+ .text.prvInsertTimerInActiveList
+                0x08001afc       0x84 FreeRTOS/timers.o
+ .text.prvProcessReceivedCommands
+                0x08001b80      0x168 FreeRTOS/timers.o
+ .text.prvSwitchTimerLists
+                0x08001ce8       0x4c FreeRTOS/timers.o
+ .text.prvCheckForValidListAndQueue
+                0x08001d34       0x54 FreeRTOS/timers.o
+ .text.pvPortMalloc
+                0x08001d88      0x15c FreeRTOS/portable/MemMang/heap_4.o
+                0x08001d88                pvPortMalloc
+ .text.vPortFree
+                0x08001ee4       0x74 FreeRTOS/portable/MemMang/heap_4.o
+                0x08001ee4                vPortFree
+ .text.prvHeapInit
+                0x08001f58       0xb4 FreeRTOS/portable/MemMang/heap_4.o
+ .text.prvInsertBlockIntoFreeList
+                0x0800200c       0xb0 FreeRTOS/portable/MemMang/heap_4.o
+ .text.pxPortInitialiseStack
+                0x080020bc       0x58 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x080020bc                pxPortInitialiseStack
+ .text.prvTaskExitError
+                0x08002114       0x32 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ *fill*         0x08002146        0xa 
+ .text.vPortSVCHandler
+                0x08002150       0x28 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x08002150                SVC_Handler
+                0x08002150                vPortSVCHandler
+ .text.prvPortStartFirstTask
+                0x08002178       0x24 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .text.xPortStartScheduler
+                0x0800219c       0x5c FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x0800219c                xPortStartScheduler
+ .text.vPortEnterCritical
+                0x080021f8       0x34 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x080021f8                vPortEnterCritical
+ .text.vPortExitCritical
+                0x0800222c       0x34 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x0800222c                vPortExitCritical
+ .text.xPortPendSVHandler
+                0x08002260       0x48 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x08002260                PendSV_Handler
+                0x08002260                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x080022a8       0x44 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x080022a8                SysTick_Handler
+                0x080022a8                xPortSysTickHandler
+ .text.vPortSetupTimerInterrupt
+                0x080022ec       0x44 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x080022ec                vPortSetupTimerInterrupt
+ *(.glue_7)
+ .glue_7        0x08002330        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08002330        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x08002330                        . = ALIGN (0x4)
+                0x08002330                        _etext = .
+
+.vfp11_veneer   0x08002330        0x0
+ .vfp11_veneer  0x08002330        0x0 linker stubs
+
+.v4_bx          0x08002330        0x0
+ .v4_bx         0x08002330        0x0 linker stubs
+
+.iplt           0x08002330        0x0
+ .iplt          0x08002330        0x0 CMSIS/startup_stm32f103xb.o
+
+.rodata         0x08002330       0x2c
+                0x08002330                        . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x08002330        0x6 src/main.o
+ *fill*         0x08002336        0x2 
+ .rodata        0x08002338        0x5 FreeRTOS/tasks.o
+ *fill*         0x0800233d        0x3 
+ .rodata        0x08002340        0x8 FreeRTOS/timers.o
+ *(.rodata*)
+ .rodata.AHBPrescTable
+                0x08002348       0x10 CMSIS/system_stm32f1xx.o
+                0x08002348                AHBPrescTable
+ .rodata.uxTopUsedPriority
+                0x08002358        0x4 FreeRTOS/tasks.o
+                0x0800235c                        . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0800235c        0x8
+                0x0800235c                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x0800235c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+                0x08002364                        __exidx_end = .
+
+.rel.dyn        0x08002364        0x0
+ .rel.iplt      0x08002364        0x0 CMSIS/startup_stm32f103xb.o
+
+.preinit_array  0x08002364        0x0
+                0x08002364                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x08002364                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x08002364        0x0
+                0x08002364                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x08002364                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x08002364        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x08002364                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0x8 load address 0x08002364
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 CMSIS/system_stm32f1xx.o
+                0x20000000                SystemCoreClock
+ .data.uxCriticalNesting
+                0x20000004        0x4 FreeRTOS/portable/GCC/ARM_CM3/port.o
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        _edata = .
+
+.igot.plt       0x20000008        0x0 load address 0x0800236c
+ .igot.plt      0x20000008        0x0 CMSIS/startup_stm32f103xb.o
+                0x20000008                        . = ALIGN (0x4)
+
+.bss            0x20000008     0x2948 load address 0x0800236c
+                0x20000008                        _sbss = .
+                0x20000008                        __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.pxCurrentTCB
+                0x20000008        0x4 FreeRTOS/tasks.o
+                0x20000008                pxCurrentTCB
+ .bss.pxReadyTasksLists
+                0x2000000c       0x64 FreeRTOS/tasks.o
+ .bss.xDelayedTaskList1
+                0x20000070       0x14 FreeRTOS/tasks.o
+ .bss.xDelayedTaskList2
+                0x20000084       0x14 FreeRTOS/tasks.o
+ .bss.pxDelayedTaskList
+                0x20000098        0x4 FreeRTOS/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x2000009c        0x4 FreeRTOS/tasks.o
+ .bss.xPendingReadyList
+                0x200000a0       0x14 FreeRTOS/tasks.o
+ .bss.xTasksWaitingTermination
+                0x200000b4       0x14 FreeRTOS/tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x200000c8        0x4 FreeRTOS/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x200000cc        0x4 FreeRTOS/tasks.o
+ .bss.xTickCount
+                0x200000d0        0x4 FreeRTOS/tasks.o
+ .bss.uxTopReadyPriority
+                0x200000d4        0x4 FreeRTOS/tasks.o
+ .bss.xSchedulerRunning
+                0x200000d8        0x4 FreeRTOS/tasks.o
+ .bss.xPendedTicks
+                0x200000dc        0x4 FreeRTOS/tasks.o
+ .bss.xYieldPendings
+                0x200000e0        0x4 FreeRTOS/tasks.o
+ .bss.xNumOfOverflows
+                0x200000e4        0x4 FreeRTOS/tasks.o
+ .bss.uxTaskNumber
+                0x200000e8        0x4 FreeRTOS/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x200000ec        0x4 FreeRTOS/tasks.o
+ .bss.xIdleTaskHandles
+                0x200000f0        0x4 FreeRTOS/tasks.o
+ .bss.uxSchedulerSuspended
+                0x200000f4        0x4 FreeRTOS/tasks.o
+ .bss.xActiveTimerList1
+                0x200000f8       0x14 FreeRTOS/timers.o
+ .bss.xActiveTimerList2
+                0x2000010c       0x14 FreeRTOS/timers.o
+ .bss.pxCurrentTimerList
+                0x20000120        0x4 FreeRTOS/timers.o
+ .bss.pxOverflowTimerList
+                0x20000124        0x4 FreeRTOS/timers.o
+ .bss.xTimerQueue
+                0x20000128        0x4 FreeRTOS/timers.o
+ .bss.xTimerTaskHandle
+                0x2000012c        0x4 FreeRTOS/timers.o
+ .bss.xLastTime.0
+                0x20000130        0x4 FreeRTOS/timers.o
+ .bss.ucHeap    0x20000134     0x2800 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xStart    0x20002934        0x8 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.pxEnd     0x2000293c        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xFreeBytesRemaining
+                0x20002940        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x20002944        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xNumberOfSuccessfulAllocations
+                0x20002948        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ .bss.xNumberOfSuccessfulFrees
+                0x2000294c        0x4 FreeRTOS/portable/MemMang/heap_4.o
+ *(COMMON)
+                0x20002950                        . = ALIGN (0x4)
+                0x20002950                        _ebss = .
+                0x20002950                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20002950      0x600 load address 0x0800236c
+                0x20002950                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20002b50                        . = (. + _Min_Heap_Size)
+ *fill*         0x20002950      0x200 
+                0x20002f50                        . = (. + _Min_Stack_Size)
+ *fill*         0x20002b50      0x400 
+                0x20002f50                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2f
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x21 CMSIS/startup_stm32f103xb.o
+ .ARM.attributes
+                0x00000021       0x2d CMSIS/system_stm32f1xx.o
+ .ARM.attributes
+                0x0000004e       0x2d CMSIS/syscalls.o
+ .ARM.attributes
+                0x0000007b       0x2d src/main.o
+ .ARM.attributes
+                0x000000a8       0x2d FreeRTOS/list.o
+ .ARM.attributes
+                0x000000d5       0x2d FreeRTOS/queue.o
+ .ARM.attributes
+                0x00000102       0x2d FreeRTOS/tasks.o
+ .ARM.attributes
+                0x0000012f       0x2d FreeRTOS/timers.o
+ .ARM.attributes
+                0x0000015c       0x2d FreeRTOS/portable/MemMang/heap_4.o
+ .ARM.attributes
+                0x00000189       0x2d FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .ARM.attributes
+                0x000001b6       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000001e3       0x1b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .ARM.attributes
+                0x000001fe       0x2d /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+OUTPUT(app.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7-m/nofp/libgcc.a
+
+.debug_info     0x00000000     0x4c2f
+ .debug_info    0x00000000      0x298 CMSIS/system_stm32f1xx.o
+ .debug_info    0x00000298      0x405 CMSIS/syscalls.o
+ .debug_info    0x0000069d      0x2b7 src/main.o
+ .debug_info    0x00000954      0x29a FreeRTOS/list.o
+ .debug_info    0x00000bee      0xfb9 FreeRTOS/queue.o
+ .debug_info    0x00001ba7     0x19b8 FreeRTOS/tasks.o
+ .debug_info    0x0000355f      0xcad FreeRTOS/timers.o
+ .debug_info    0x0000420c      0x48d FreeRTOS/portable/MemMang/heap_4.o
+ .debug_info    0x00004699      0x323 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_info    0x000049bc      0x135 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_info    0x00004af1       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .debug_info    0x00004b24      0x10b /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_abbrev   0x00000000     0x1325
+ .debug_abbrev  0x00000000      0x156 CMSIS/system_stm32f1xx.o
+ .debug_abbrev  0x00000156       0xf0 CMSIS/syscalls.o
+ .debug_abbrev  0x00000246      0x163 src/main.o
+ .debug_abbrev  0x000003a9       0xec FreeRTOS/list.o
+ .debug_abbrev  0x00000495      0x2a2 FreeRTOS/queue.o
+ .debug_abbrev  0x00000737      0x36d FreeRTOS/tasks.o
+ .debug_abbrev  0x00000aa4      0x29f FreeRTOS/timers.o
+ .debug_abbrev  0x00000d43      0x1f3 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_abbrev  0x00000f36      0x247 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_abbrev  0x0000117d       0xb7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_abbrev  0x00001234       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .debug_abbrev  0x0000125c       0xc9 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_aranges  0x00000000      0x588
+ .debug_aranges
+                0x00000000       0x28 CMSIS/system_stm32f1xx.o
+ .debug_aranges
+                0x00000028       0x58 CMSIS/syscalls.o
+ .debug_aranges
+                0x00000080       0x28 src/main.o
+ .debug_aranges
+                0x000000a8       0x40 FreeRTOS/list.o
+ .debug_aranges
+                0x000000e8       0xe0 FreeRTOS/queue.o
+ .debug_aranges
+                0x000001c8      0x1a0 FreeRTOS/tasks.o
+ .debug_aranges
+                0x00000368       0xe8 FreeRTOS/timers.o
+ .debug_aranges
+                0x00000450       0x68 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_aranges
+                0x000004b8       0x70 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_aranges
+                0x00000528       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_aranges
+                0x00000548       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .debug_aranges
+                0x00000568       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_rnglists
+                0x00000000      0x3d7
+ .debug_rnglists
+                0x00000000       0x1b CMSIS/system_stm32f1xx.o
+ .debug_rnglists
+                0x0000001b       0x3d CMSIS/syscalls.o
+ .debug_rnglists
+                0x00000058       0x19 src/main.o
+ .debug_rnglists
+                0x00000071       0x2b FreeRTOS/list.o
+ .debug_rnglists
+                0x0000009c       0xad FreeRTOS/queue.o
+ .debug_rnglists
+                0x00000149      0x146 FreeRTOS/tasks.o
+ .debug_rnglists
+                0x0000028f       0xac FreeRTOS/timers.o
+ .debug_rnglists
+                0x0000033b       0x4d FreeRTOS/portable/MemMang/heap_4.o
+ .debug_rnglists
+                0x00000388       0x4f FreeRTOS/portable/GCC/ARM_CM3/port.o
+
+.debug_line     0x00000000     0x2ff7
+ .debug_line    0x00000000      0x1da CMSIS/system_stm32f1xx.o
+ .debug_line    0x000001da      0x16a CMSIS/syscalls.o
+ .debug_line    0x00000344      0x141 src/main.o
+ .debug_line    0x00000485      0x1d4 FreeRTOS/list.o
+ .debug_line    0x00000659      0x9c4 FreeRTOS/queue.o
+ .debug_line    0x0000101d      0xf46 FreeRTOS/tasks.o
+ .debug_line    0x00001f63      0x636 FreeRTOS/timers.o
+ .debug_line    0x00002599      0x420 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_line    0x000029b9      0x2b2 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_line    0x00002c6b      0x1b1 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_line    0x00002e1c       0xbd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .debug_line    0x00002ed9      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_str      0x00000000     0x1ebc
+ .debug_str     0x00000000     0x1ebc CMSIS/system_stm32f1xx.o
+                                0x230 (size before relaxing)
+ .debug_str     0x00001ebc      0x2df CMSIS/syscalls.o
+ .debug_str     0x00001ebc      0x26f src/main.o
+ .debug_str     0x00001ebc      0x298 FreeRTOS/list.o
+ .debug_str     0x00001ebc      0x865 FreeRTOS/queue.o
+ .debug_str     0x00001ebc      0xebe FreeRTOS/tasks.o
+ .debug_str     0x00001ebc      0x8a2 FreeRTOS/timers.o
+ .debug_str     0x00001ebc      0x4c3 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_str     0x00001ebc      0x34a FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_str     0x00001ebc      0x1a0 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_str     0x00001ebc       0xa3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
+ .debug_str     0x00001ebc      0x1ed /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 CMSIS/system_stm32f1xx.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 CMSIS/syscalls.o
+ .comment       0x00000026       0x27 src/main.o
+ .comment       0x00000026       0x27 FreeRTOS/list.o
+ .comment       0x00000026       0x27 FreeRTOS/queue.o
+ .comment       0x00000026       0x27 FreeRTOS/tasks.o
+ .comment       0x00000026       0x27 FreeRTOS/timers.o
+ .comment       0x00000026       0x27 FreeRTOS/portable/MemMang/heap_4.o
+ .comment       0x00000026       0x27 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_frame    0x00000000     0x1464
+ .debug_frame   0x00000000       0x58 CMSIS/system_stm32f1xx.o
+ .debug_frame   0x00000058      0x13c CMSIS/syscalls.o
+ .debug_frame   0x00000194       0x50 src/main.o
+ .debug_frame   0x000001e4       0xd8 FreeRTOS/list.o
+ .debug_frame   0x000002bc      0x3a8 FreeRTOS/queue.o
+ .debug_frame   0x00000664      0x71c FreeRTOS/tasks.o
+ .debug_frame   0x00000d80      0x3b4 FreeRTOS/timers.o
+ .debug_frame   0x00001134      0x170 FreeRTOS/portable/MemMang/heap_4.o
+ .debug_frame   0x000012a4      0x168 FreeRTOS/portable/GCC/ARM_CM3/port.o
+ .debug_frame   0x0000140c       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_frame   0x00001438       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_loclists
+                0x00000000      0x23c
+ .debug_loclists
+                0x00000000      0x1d7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memset.o)
+ .debug_loclists
+                0x000001d7       0x65 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-init.o)
+
+.debug_line_str
+                0x00000000       0x90
+ .debug_line_str
+                0x00000000       0x90 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg.a(libc_a-memcpy.o)
